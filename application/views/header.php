@@ -4,7 +4,7 @@
 	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-			<title> TODO LIST </title>
+			<title>TransFestival</title>
 			<link rel="stylesheet" type="text/css" href="../../assets/styles/base.css" media="all" />
 			<link rel="stylesheet" type="text/css" href="../../assets/styles/modele03.css" media="screen" />
 		</head>

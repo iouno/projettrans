@@ -5,9 +5,9 @@ SET SCHEMA 'TransMusicales';
 
 CREATE TABLE TransMusicales._utilisateur (
 	idUtilisateur	SERIAL	NOT NULL,
-	login	VARCHAR[30],
-	pass	VARCHAR[30],
-	nom	VARCHAR[30] NOT NULL,
+	login	VARCHAR(30),
+	pass	VARCHAR(30),
+	nom	VARCHAR(30) NOT NULL,
 	CONSTRAINT _utilisateur_pk
 		PRIMARY KEY(idUtilisateur),
 	CONSTRAINT _utilisateur_u
@@ -26,15 +26,15 @@ CREATE TABLE TransMusicales._respATM (
 
 CREATE TABLE TransMusicales._artiste (
 	idArtiste	INTEGER	NOT NULL,
-	formation	VARCHAR[60] NOT NULL,
-	dateDebut	VARCHAR[120] NOT NULL,
-	pays	VARCHAR[60] NOT NULL,
-	genre	VARCHAR[60] NOT NULL,
-	parente	VARCHAR[120] NOT NULL,
-	site	VARCHAR[120] NOT NULL,
-	mail	VARCHAR[120] NOT NULL,
-	elemPrinc	VARCHAR[120],
-	elemPonc	VARCHAR[120],
+	formation	VARCHAR(60) NOT NULL,
+	dateDebut	VARCHAR(120) NOT NULL,
+	pays	VARCHAR(60) NOT NULL,
+	genre	VARCHAR(60) NOT NULL,
+	parente	VARCHAR(120) NOT NULL,
+	site	VARCHAR(120) NOT NULL,
+	mail	VARCHAR(120) NOT NULL,
+	elemPrinc	VARCHAR(120),
+	elemPonc	VARCHAR(120),
 	img1	INTEGER,
 	img2	INTEGER,
 	img3	INTEGER,
@@ -60,7 +60,7 @@ CREATE TABLE TransMusicales._artiste (
 );
 
 CREATE TABLE TransMusicales._album (
-	nom	VARCHAR[120] NOT NULL,
+	nom	VARCHAR(120) NOT NULL,
 	artiste	INTEGER NOT NULL,
 	dateSortie	DATE NOT NULL,
 	CONSTRAINT _album_pk
@@ -70,8 +70,8 @@ CREATE TABLE TransMusicales._album (
 );
 
 CREATE TABLE TransMusicales._titre (
-	nom	VARCHAR[120] NOT NULL,
-	album VARCHAR[120] NOT NULL,
+	nom	VARCHAR(120) NOT NULL,
+	album VARCHAR(120) NOT NULL,
 	duree	TIME NOT NULL,
 	CONSTRAINT _titre_pk
 		PRIMARY KEY(nom),
@@ -81,11 +81,11 @@ CREATE TABLE TransMusicales._titre (
 	
 CREATE TABLE TransMusicales._respSalle (
 	idRes	SERIAL NOT NULL,
-	nom	VARCHAR[30] NOT NULL,
-	prenom	VARCHAR[30] NOT NULL,
-	adresse	VARCHAR[120] NOT NULL,
-	tel	VARCHAR[10] NOT NULL,
-	mail	VARCHAR[120] NOT NULL,
+	nom	VARCHAR(30) NOT NULL,
+	prenom	VARCHAR(30) NOT NULL,
+	adresse	VARCHAR(120) NOT NULL,
+	tel	VARCHAR(10) NOT NULL,
+	mail	VARCHAR(120) NOT NULL,
 	CONSTRAINT _respSalle_pk
 		PRIMARY KEY(idRes)
 );
@@ -93,9 +93,9 @@ CREATE TABLE TransMusicales._respSalle (
 CREATE TABLE TransMusicales._salle (
 	idSalle	SERIAL NOT NULL,
 	resp	INTEGER NOT NULL,
-	nom	VARCHAR[30] NOT NULL,
+	nom	VARCHAR(30) NOT NULL,
 	tarif	FLOAT NOT NULL,
-	adresse	VARCHAR[120] NOT NULL,
+	adresse	VARCHAR(120) NOT NULL,
 	capacite	INTEGER NOT NULL,
 	handicape	BOOLEAN,
 	CONSTRAINT _salle_pk
@@ -127,7 +127,7 @@ CREATE TABLE TransMusicales._creneau (
 CREATE TABLE TransMusicales._reservation (
 	idReserv	SERIAL NOT NULL,
 	dateReserv	DATE NOT NULL,
-	statut	VARCHAR[30] NOT NULL,
+	statut	VARCHAR(30) NOT NULL,
 	artiste	INTEGER NOT NULL,	
 	creneau	INTEGER NOT NULL,
 	CONSTRAINT _reservation_pk
@@ -140,60 +140,60 @@ CREATE TABLE TransMusicales._reservation (
 		FOREIGN KEY(creneau) REFERENCES TransMusicales._creneau(idCreneau)
 );
 
+COPY TransMusicales._utilisateur (login,pass,nom) FROM STDIN
+'als001'	'2jU68Xqp'	'Alsarah & The Nubatones'
+'and001'	'9fK95fXb'	'Andre Bratten'
+'ani001'	'vAWw7p22'	'Animal Chuki'
+'awe001'	'RNy936uq'	'Awesome Tapes From Africa'
+'ban001'	'Yp5J2i6t'	'Bantam Lyons'
+'bis001'	'sDmj64X4'	'Bison Bisou'
+'bor001'	'3xkPz23A'	'Boris Brejcha'
+'cla001'	'Qtv43h4C'	'Clap! Clap!'
+'cla002'	'a7Z8Ga7c'	'Clarens'
+'com001'	'm5HUe53i'	'Compact Disk Dummies'
+'cos001'	'xNe6B27u'	'Cosmo Sheldrake'
+'cos002'	'Hr2ja9S7'	'Costello'
+'cou001'	'CeFp3n72'	'Courtney Barnett'
+'cou002'	'g6uC4k2L'	'Courtship Ritual'
+'cur001'	'9t25akLL'	'Curtis Harding'
+'dad001'	'Aky376Xf'	'Dad Rocks!'
 
-COPY TransMusicales._utilisateur (idUtilisateur, login,pass,nom) FROM STDIN
-	1	'admin001'	'K62jKur7'	'Marc Janvier'
-	2	'als001'	'2jU68Xqp'	'Alsarah & The Nubatones'
-	3	'and001'	'9fK95fXb'	'Andre Bratten'
-	4	'ani001'	'vAWw7p22'	'Animal Chuki'
-	5	'awe001'	'RNy936uq'	'Awesome Tapes From Africa'
-	6	'ban001'	'Yp5J2i6t'	'Bantam Lyons'
-	7	'bis001'	'sDmj64X4'	'Bison Bisou'
-	8	'bor001'	'3xkPz23A'	'Boris Brejcha'
-	9	'cla001'	'Qtv43h4C'	'Clap! Clap!'
-	10	'cla002'	'a7Z8Ga7c'	'Clarens'
-	11	'com001'	'm5HUe53i'	'Compact Disk Dummies'
-	12	'cos001'	'xNe6B27u'	'Cosmo Sheldrake'
-	13	'cos002'	'Hr2ja9S7'	'Costello'
-	14	'cou001'	'CeFp3n72'	'Courtney Barnett'
-	15	'cou002'	'g6uC4k2L'	'Courtship Ritual'
-	16	'cur001'	'9t25akLL'	'Curtis Harding'
-	17	'dad001'	'Aky376Xf'	'Dad Rocks!'
-	18	'dar001'	'9VcRw73m'	'Darjeeling Speech'
-	19	'dbf001'	'a9wR4Kh6'	'DBFC'
-	20	'dea001'	'j26vR3Nb'	'Dead Obies'
-	21	'den001'	'3sXY2rm9'	'Den Sorte Skole'
-	22	'dol001'	'3kfJv6K8'	'Dollkraut'
-	23	'eag001'	'L5fq8Nu4'	'Eagles Gift'
-	24	'fem001'	'T9qSb8r5'	'F.E.M'
-	25	'faw001'	'42i3WrUh'	'Fawl'
-	26	'fit001'	'GKgx254r'	'Fitness'
-	27	'for001'	'mCt5zS82'	'Forever Pavot'
-	28	'fra001'	'5D6bP2nt'	'Fragments'
-	29	'fra002'	'7cwP8Z3b'	'Frank McWeeny'
-	30	'fri001'	'7a6ErF3r'	'Friend Within'
-	31	'fum001'	'zB95Buj2'	'Fumaça Preta'
-	32	'fuz001'	'cN9Nw8h8'	'Fuzeta'
-	33	'gan001'	'3Ra7B5tt'	'Gandi Lake'
-	34	'gra001'	'B9zhG9t5'	'Grand Blanc'
-	35	'ime001'	'h6zP89yT'	'I Me Mine'
-	36	'isl001'	'n6t2ZAq6'	'Islam Chipsy'
-	37	'jam001'	'8UynCb86'	'Jambinai'
-	38	'jea001'	'c72S7vcH'	'Jeanne Added'
-	39	'joy001'	'5Cae9q6Z'	'Joy Squander'
-	40	'joy002'	'r22s5fNM'	'Joyce Muniz'
-	41	'jun001'	'Th66u7rA'	'Jungle By Night'
-	42	'kat001'	'b9Q6j8Ax'	'Kate Tempest'
-	43	'kos001'	'x6mP6c9D'	'Kosmo Pilot'
-	44	'laf001'	'gdLEp335'	'La Fine Equipe'
-	45	'lam001'	'44G5yxwA'	'La Mverte'
-	46	'lez001'	'FfpB64p9'	'Le Zoo'
-	47	'liz001'	'U8n2bR8x'	'Lizzo'
-	48	'lor001'	'y7g8X2Qj'	'Lord Paramour'
-	49	'mac001'	'37cMzZi3'	"Mac l'Arnaque"
-	50	'mar001'	'kXm4rM52'	'Marco Barotti'
-	51	'max001'	'm6EV4e2w'	'Max Jury'
-	52	'met001'	'59H7aPjt'	'Metà Metà'
+\
+18	'dar001'	'9VcRw73m'	'Darjeeling Speech'
+19	'dbf001'	'a9wR4Kh6'	'DBFC'
+20	'dea001'	'j26vR3Nb'	'Dead Obies'
+21	'den001'	'3sXY2rm9'	'Den Sorte Skole'
+22	'dol001'	'3kfJv6K8'	'Dollkraut'
+23	'eag001'	'L5fq8Nu4'	'Eagles Gift'
+24	'fem001'	'T9qSb8r5'	'F.E.M'
+25	'faw001'	'42i3WrUh'	'Fawl'
+26	'fit001'	'GKgx254r'	'Fitness'
+27	'for001'	'mCt5zS82'	'Forever Pavot'
+28	'fra001'	'5D6bP2nt'	'Fragments'
+29	'fra002'	'7cwP8Z3b'	'Frank McWeeny'
+30	'fri001'	'7a6ErF3r'	'Friend Within'
+31	'fum001'	'zB95Buj2'	'Fumaça Preta'
+32	'fuz001'	'cN9Nw8h8'	'Fuzeta'
+33	'gan001'	'3Ra7B5tt'	'Gandi Lake'
+34	'gra001'	'B9zhG9t5'	'Grand Blanc'
+35	'ime001'	'h6zP89yT'	'I Me Mine'
+36	'isl001'	'n6t2ZAq6'	'Islam Chipsy'
+37	'jam001'	'8UynCb86'	'Jambinai'
+38	'jea001'	'c72S7vcH'	'Jeanne Added'
+39	'joy001'	'5Cae9q6Z'	'Joy Squander'
+40	'joy002'	'r22s5fNM'	'Joyce Muniz'
+41	'jun001'	'Th66u7rA'	'Jungle By Night'
+42	'kat001'	'b9Q6j8Ax'	'Kate Tempest'
+43	'kos001'	'x6mP6c9D'	'Kosmo Pilot'
+44	'laf001'	'gdLEp335'	'La Fine Equipe'
+45	'lam001'	'44G5yxwA'	'La Mverte'
+46	'lez001'	'FfpB64p9'	'Le Zoo'
+47	'liz001'	'U8n2bR8x'	'Lizzo'
+48	'lor001'	'y7g8X2Qj'	'Lord Paramour'
+49	'mac001'	'37cMzZi3'	'Mac l\'Arnaque'
+50	'mar001'	'kXm4rM52'	'Marco Barotti'
+51	'max001'	'm6EV4e2w'	'Max Jury'
+52	'met001'	'59H7aPjt'	'Metà Metà'
 \.
 
 COPY TransMusicales._respATM (idRespATM) FROM STDIN

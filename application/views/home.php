@@ -1,1 +1,1 @@
-<?php echo anchor('todo/inscription','inscrivez-vous') ?>
+<?php echo anchor('artiste/inscription','inscrivez-vous') ?>

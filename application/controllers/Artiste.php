@@ -46,21 +46,28 @@ class Artiste extends CI_Controller
 
 		$data['title'] = 'Inscription';
 
-		//$this->form_validation->set_rules('login', 'Identifiant', 'required');
+		$this->form_validation->set_rules('nom', 'Nom', 'required');
+		$this->form_validation->set_rules('mail', 'Adresse e-mail', 'required');
+		$this->form_validation->set_rules('pays', "Pays d'origine", 'required');
+		$this->form_validation->set_rules('dateDeb', 'Date de début', 'required');
+		$this->form_validation->set_rules('formation', 'Formation', 'required');
+		$this->form_validation->set_rules('genre', 'Genre', 'required');
+		$this->form_validation->set_rules('parentes', 'Parentés', 'required');
+		$this->form_validation->set_rules('site', 'Site web', 'required');
 
 		$data['msg_erreur'] = NULL;
+		$data['msg_valid'] = NULL;
 
 		if($this->form_validation->run() !== FALSE)
 		{
-			if (!empty($this->artiste_model->artiste_get_user($this->input->post('login'))))
+			if (!empty($this->artiste_model->get_user_by_name($this->input->post('nom'))))
 			{
-				$data['msg_erreur'] = "L'utilisateur existe déja";
+				$data['msg_erreur'] = "Un autre groupe possède déja ce nom.";
 			}
 			else
 			{
-				$this->session->set_userdata('etat', 'connected');
-				$user = $this->todo_model->todo_add_user();
-				$this->session->set_userdata('user', $user);
+				// Envoyer les données en attente de validation par l'ATM.
+				$data['msg_valid'] = "Un identifiant et un mot de passe vous serons envoyés par courriel lorsque votre inscription sera validée.";
 			}
 
 		}
@@ -71,9 +78,10 @@ class Artiste extends CI_Controller
 		}
 		else
 		{
+			$data['action']='connexion';
+			$data['label']='Se connecter';
 			$this->load->view('header', $data);
-			//$this->load->view('menuDisconnected');
-			$this->load->view('inscription', $data);
+			$this->load->view('register', $data);
 			$this->load->view('footer');
 		}
 	}

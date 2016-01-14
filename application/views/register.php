@@ -1,14 +1,7 @@
-
-<?php
-$titre="Inscription";
-
-if ((empty($_POST['nom']))||(empty($_POST['mail']))||(empty($_POST['pays']))||(empty($_POST['dateDeb']))||(empty($_POST['formation']))||(empty($_POST['genre']))||(empty($_POST['parentes']))||(empty($_POST['site'])))
-//si la variable est vide, on peut considérer qu'on est sur la page de formulaire
-{
-?>
-
 <h1> Inscription </h1>
-<form method="post" action="../../index.php/user/index" enctype="multipart/form-data">
+
+<?php if (empty($msg_valid)) : ?>
+<form method="post" action="<?php $_SERVER['PHP_SELF']?>" enctype="multipart/form-data">
 	<fieldset>
 	<label for="nom">*Nom :</label> <input name="nom" type="text" id="nom"/> (le nom doit contenir entre 3 et 50 caractères) </br>
 	<label for="mail">*Mail :</label> <input name="mail" type="mail" id="mail"/> </br>
@@ -18,13 +11,15 @@ if ((empty($_POST['nom']))||(empty($_POST['mail']))||(empty($_POST['pays']))||(e
 	<label for="genre">*Genre : </label> <input name="genre" type="text" id="genre"/> </br>
 	<label for="parentes">*Parentés : </label> <input name="parentes" type="text" id="parentes"/> </br>
 	<label for="site">*Site web : </label> <input name="site" type="text" id="site"/> </br>
+	<p> Les champs précédés d'un * sont obligatoires. </p>
+	<p><input type="submit" value="S'inscrire"/></p>
 	</fieldset>
-<p> Les champs précédés d'un * sont obligatoires. </p>
-<p><input type="submit" value="S'inscrire"/></p>
 </form>
-<a href="./connexion.php"> Vous possédez déjà un compte ? </a>
+<?php else : ?>
+<p>
+	<?php echo $msg_valid ?>
+<p>
+<?php endif; ?>
+	<a href="./connexion.php"> Vous possédez déjà un compte ? </a>
+</p>
 </body>
-
-<?php
-}
-?>

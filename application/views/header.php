@@ -5,8 +5,7 @@
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 			<title>TransFestival | <?php echo $title ?></title>
-			<!--<link rel="stylesheet" type="text/css" href="./../models/base.css" media="all" />
-			<link rel="stylesheet" type="text/css" href="./../models/modele03.css" media="screen" />-->
+			<link rel="stylesheet" type="text/css" href="<? echo base_url();?>/assets/css/style.css" media="all" />
 		</head>
 
 		<body>
@@ -25,3 +24,5 @@
 			</div>
 
 			<div id="action"><?php echo anchor('artiste/'.$action,$label) ?></div>
+
+			<div id="contenu">

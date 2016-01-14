@@ -5,8 +5,8 @@
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 			<title>TransFestival</title>
-			<link rel="stylesheet" type="text/css" href="../models/base.css" media="all" />
-			<link rel="stylesheet" type="text/css" href="../../models/modele03.css" media="screen" />
+			<link rel="stylesheet" type="text/css" href="./../models/base.css" media="all" />
+			<link rel="stylesheet" type="text/css" href="./../models/modele03.css" media="screen" />
 		</head>
 
 		<body>

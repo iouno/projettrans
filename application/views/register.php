@@ -13,7 +13,7 @@ if ((empty($_POST['nom']))||(empty($_POST['mail']))||(empty($_POST['pays']))||(e
 	<label for="nom">*Nom :</label> <input name="nom" type="text" id="nom"/> (le nom doit contenir entre 3 et 50 caractères) </br>
 	<label for="mail">*Mail :</label> <input name="mail" type="mail" id="mail"/> </br>
 	<label for="pays">*Pays :</label> <input name="pays" type="text" id="pays"/> </br>
-	<label for="dateDeb">*Date de début :</label> <input name="dateDeb" type="date" id="dateDeb"/> </br>
+	<label for="dateDeb">*Date de début :</label> <input name="dateDeb" type="text" id="dateDeb"/> </br>
 	<label for="formation">*Formation : </label> <input name="formation" type="text" id="formation"/> </br>
 	<label for="genre">*Genre : </label> <input name="genre" type="text" id="genre"/> </br>
 	<label for="parentes">*Parentés : </label> <input name="parentes" type="text" id="parentes"/> </br>

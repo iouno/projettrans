@@ -8,7 +8,7 @@ if (empty($_POST['nom']))
 ?>
 
 <h1> Inscription </h1>
-<form method="post" action="http://webetuinfo.iutlan.univ-rennes1.fr/laurenti/prjweb/A25/prjweb/CodeIgniter/index.php/user/index" enctype="multipart/form-data">
+<form method="post" action="../../index.php/user/index" enctype="multipart/form-data">
 	<fieldset>
 <legend> Identifiants </legend>
 	<label for="pseudo">*Pseudo :</label> <input name="pseudo" type="text" id="pseudo"/> (le pseudo doit contenir entre 3 et 15 caractères) </br>

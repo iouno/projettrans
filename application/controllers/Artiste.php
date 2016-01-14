@@ -22,17 +22,19 @@ class Artiste extends CI_Controller
 		$data['title'] = 'Accueil';
 		$data['iduser'] = null;
 
-		$this->load->view('header', $data);
-
 		if ($this->session->all_userdata()['etat'] == 'connected')
 		{
+			$data['action']='deconnexion';
+			$data['label']='Se déconnecter';
 			$data['iduser'] = $this->session->all_userdata()['user']['idutilisateur'];
 		}
 		else
 		{
-
+			$data['action']='connexion';
+			$data['label']='Se connecter';
 		}
 
+		$this->load->view('header', $data);
 		$this->load->view('home', $data);
 		$this->load->view('footer');
 	}
@@ -121,12 +123,18 @@ class Artiste extends CI_Controller
 
 			if ($this->session->all_userdata()['etat'] !== 'connected')
 			{
+				$data['action']='connexion';
+				$data['label']='Se connecter';
 				$this->load->view('header', $data);
-				//$this->load->view('menuDisconnected');
 				$this->load->view('connexion', $data);
 				$this->load->view('footer');
 			}
 		}
+	}
+
+	public function deconnexion()
+	{
+		$this->index();
 	}
 
 }

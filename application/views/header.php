@@ -22,9 +22,6 @@
 					<strong>Caractéristiques:</strong>
 				platform web de réservation de salle
 				</p>
-			</div><!-- #entete -->
-			<div id="navigation">
-				<ul>
-					<li><?php echo anchor('artiste/connexion','Connexion') ?></li>
-				</ul>
-			</div><!-- #navigation -->
+			</div>
+
+			<div id="action"><?php echo anchor('artiste/'.$action,$label) ?></div>

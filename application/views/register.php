@@ -22,6 +22,7 @@ if ((empty($_POST['nom']))||(empty($_POST['mail']))||(empty($_POST['pays']))||(e
 <p> Les champs précédés d'un * sont obligatoires. </p>
 <p><input type="submit" value="S'inscrire"/></p>
 </form>
+<a href="./connexion.php"> Vous possédez déjà un compte ? </a>
 </body>
 
 <?php

@@ -2,7 +2,7 @@
 <?php
 $titre="Inscription";
 
-if (empty($_POST['nom']))
+if (empty($_POST['nom']))||(empty($_POST['mail']))||(empty($_POST['pays']))||(empty($_POST['dateDeb']))||(empty($_POST['formation']))||(empty($_POST['genre']))||(empty($_POST['parentes']))||(empty($_POST['site']))
 //si la variable est vide, on peut considérer qu'on est sur la page de formulaire
 {
 ?>

@@ -10,10 +10,11 @@ if (empty($_POST['nom']))
 <h1> Inscription </h1>
 <form method="post" action="../../index.php/user/index" enctype="multipart/form-data">
 	<fieldset>
-<legend> Identifiants </legend>
-	<label for="pseudo">*Pseudo :</label> <input name="pseudo" type="text" id="pseudo"/> (le pseudo doit contenir entre 3 et 15 caractères) </br>
-	<label for="password">*Mot de passe :</label> <input name="password" type="password" id="password"/> (le mot de passe doit contenir entre 3 et 15 caractères) </br>
-	<label for="confirm">*Confirmer le mot de passe :</label> <input name="confirm" type="password" id="confirm"/> (le mot de passe doit contenir entre 3 et 15 caractères) </br>
+	<label for="nom">*Nom :</label> <input name="nom" type="text" id="nom"/> (le nom doit contenir entre 3 et 50 caractères) </br>
+	<label for="mail">*Mail :</label> <input name="mail" type="mail" id="mail"/> </br>
+	<label for="pays">*Pays :</label> <input name="pays" type="text" id="pays"/> </br>
+	<label for="dateDeb">*Date de début :</label> <input name="dateDeb" type="date" id="dateDeb"/> </br>
+	
 	</fieldset>
 <p> Les champs précédés d'un * sont obligatoires. </p>
 <p><input type="submit" value="S'inscrire"/></p>

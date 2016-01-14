@@ -4,9 +4,9 @@
 	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-			<title>TransFestival</title>
-			<link rel="stylesheet" type="text/css" href="./../models/base.css" media="all" />
-			<link rel="stylesheet" type="text/css" href="./../models/modele03.css" media="screen" />
+			<title>TransFestival | <?php echo $title ?></title>
+			<!--<link rel="stylesheet" type="text/css" href="./../models/base.css" media="all" />
+			<link rel="stylesheet" type="text/css" href="./../models/modele03.css" media="screen" />-->
 		</head>
 
 		<body>
@@ -25,6 +25,6 @@
 			</div><!-- #entete -->
 			<div id="navigation">
 				<ul>
-					<li><a href="./connexion.php" Connexion</a></li>
+					<li><?php echo anchor('artiste/connexion','Connexion') ?></li>
 				</ul>
 			</div><!-- #navigation -->

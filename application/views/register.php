@@ -10,7 +10,7 @@
 		<label for="formation">*Formation : </label> <input name="formation" type="text" id="formation"/> </br>
 		<label for="genre">*Genre : </label> <input name="genre" type="text" id="genre"/> </br>
 		<label for="parentes">*Parentés : </label> <input name="parentes" type="text" id="parentes"/> </br>
-		<label for="site">*Site web : </label> <input name="site" type="url" id="site"/> </br>
+		<label for="site">*Site web : </label> <input name="site" type="text" id="site"/> </br>
 		<p> Les champs précédés d'un * sont obligatoires. </p>
 		<p><input type="submit" value="S'inscrire"/></p>
 	</fieldset>

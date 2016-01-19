@@ -9,13 +9,10 @@
 		</head>
 
 		<body>
-
-			<div id="global">
-
 			<div id="entete">
-
-				<h1> Web Platform de Projet Trans
-				</h1>
+				<div id="title">
+					<?php echo anchor('artiste/accueil','Web Platform de Projet Trans') ?>
+				</div>
 
 				<p class="sous-titre">
 					<strong>Caractéristiques:</strong>
@@ -23,6 +20,8 @@
 				</p>
 			</div>
 
-			<div id="action"><?php echo anchor('artiste/'.$action,$label) ?></div>
+			<div id="action">
+				<?php echo anchor('artiste/'.$action,$label) ?>
+			</div>
 
 			<div id="contenu">

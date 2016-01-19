@@ -17,7 +17,7 @@ class Artiste extends CI_Controller
 		$this->acceuil();
 	}
 
-	public function acceuil()
+	public function accueil()
 	{
 		$data['title'] = 'Accueil';
 		$data['iduser'] = null;
@@ -37,6 +37,33 @@ class Artiste extends CI_Controller
 		$this->load->view('header', $data);
 		$this->load->view('home', $data);
 		$this->load->view('footer');
+	}
+
+	public function recherche()
+	{
+		$this->load->helper('form');
+		$this->load->library('form_validation');
+
+		$data['title'] = 'Recherche de salle';
+		
+		if($this->form_validation->run() !== FALSE)
+		{
+			
+		}
+		
+		//if ($this->session->all_userdata()['etat'] == 'connected')
+		{
+			$data['action']='deconnexion';
+			$data['label']='Se déconnecter';
+			$this->load->view('header', $data);
+			$this->load->view('recherche', $data);
+			$this->load->view('footer');
+			
+		}
+		/*else
+		{
+			$this->accueil();
+		}*/
 	}
 
 	public function inscription()
@@ -90,7 +117,7 @@ class Artiste extends CI_Controller
 	{
 		if ($this->session->all_userdata()['etat'] == 'connected')
 		{
-			$this->acceuil();
+			$this->accueil();
 		}
 		else
 		{
@@ -116,7 +143,7 @@ class Artiste extends CI_Controller
 					{
 						$this->session->set_userdata('etat', 'connected');
 						$this->session->set_userdata('user', $user);
-						$this->acceuil();
+						$this->accueil();
 					}
 					else
 					{

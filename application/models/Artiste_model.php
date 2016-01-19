@@ -20,9 +20,14 @@ class Artiste_model extends CI_Model {
 	public function add_artiste()
 	{
 		$data = array (
-			'login'=>$this->input->post('login'),
-			'username'=>$this->input->post('username'),
-			'pass'=>$this->input->post('pass')
+			'nom'=>$this->input->post('nom'),
+			'mail'=>$this->input->post('mail'),
+			'pays'=>$this->input->post('pays'),
+			'dateDeb'=>$this->input->post('dateDeb'),
+			'formation'=>$this->input->post('formation'),
+			'genre'=>$this->input->post('genre'),
+			'parentes'=>$this->input->post('parentes'),
+			'site'=>$this->input->post('site'),
 		);
 
 		$this->db->insert('user', $data);

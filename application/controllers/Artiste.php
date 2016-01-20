@@ -171,6 +171,5 @@ class Artiste extends CI_Controller
 	{
 		$this->index();
 	}
-
 }
 ?>

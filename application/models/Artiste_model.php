@@ -17,6 +17,12 @@ class Artiste_model extends CI_Model {
 		return $query->result_array();
 	}
 
+	public function get_respatm()
+	{
+		$query = $this->db->query('SELECT * FROM transmusicales._respATM');
+		return $query->result_array();
+	}
+
 	public function add_artiste()
 	{
 		$data = array (

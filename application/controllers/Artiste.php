@@ -25,17 +25,25 @@ class Artiste extends CI_Controller
 		if ($this->session->all_userdata()['etat'] == 'connected')
 		{
 			$data['action']='deconnexion';
-			$data['label']='Se déconnecter';
-			$data['iduser'] = $this->session->all_userdata()['user']['idutilisateur'];
+			$data['label']='Se déconnecter';			
+			if (in_array($this->session->all_userdata()['user']['idutilisateur'], $this->artiste_model->get_respatm()))
+			{	
+				$home = 'home_atm';
+			}
+			else
+			{
+				$home = 'home_artiste';
+			}
 		}
 		else
 		{
 			$data['action']='connexion';
 			$data['label']='Se connecter';
+			$home = 'home';
 		}
 
 		$this->load->view('header', $data);
-		$this->load->view('home', $data);
+		$this->load->view($home, $data);
 		$this->load->view('footer');
 	}
 

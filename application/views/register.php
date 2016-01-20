@@ -5,7 +5,7 @@
 	<fieldset>
 		<label for="nom">*Nom :</label> <input name="nom" type="text" id="nom"/> (le nom doit contenir entre 3 et 50 caractères) </br>
 		<label for="mail">*Mail :</label> <input name="mail" type="email" id="mail"/></br>
- 		<form method="post" action="traitement.php"><label><strong>Pays :</strong>
+ 		<form method="post" action="traitement.php"><label>*Pays :
 <select name="pays">
 <optgroup label="Afrique">
 <option value="afriqueDuSud">Afrique Du Sud</option>
@@ -209,7 +209,7 @@
 <option value="tuvalu">Tuvalu</option>
 <option value="vanuatu">Vanuatu</option>
 </optgroup>
-		</select></label></form> 
+		</select></label></form> </br>
 		<label for="dateDeb">*Date de début :</label> <input name="dateDeb" type="text" id="dateDeb"/> </br>
 		<label for="formation">*Formation : </label> <input name="formation" type="text" id="formation"/> </br>
 		<label for="genre">*Genre : </label> <input name="genre" type="text" id="genre"/> </br>

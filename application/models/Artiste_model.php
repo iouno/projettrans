@@ -34,5 +34,11 @@ class Artiste_model extends CI_Model {
 
 		return $data;
 	}
+
+	public function get_journees()
+	{
+		$query = $this->db->query('SELECT * FROM transmusicales._journee');
+		return $query->result_array();
+	}
 }
 ?>

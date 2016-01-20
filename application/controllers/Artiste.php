@@ -14,7 +14,7 @@ class Artiste extends CI_Controller
 	{
 		$this->session->set_userdata('etat', 'disconnected');
 		$this->session->unset_userdata('user');
-		$this->acceuil();
+		$this->accueil();
 	}
 
 	public function accueil()
@@ -43,6 +43,8 @@ class Artiste extends CI_Controller
 	{
 		$this->load->helper('form');
 		$this->load->library('form_validation');
+
+		$data['journees'] = $this->artiste_model->get_journees();
 
 		$data['title'] = 'Recherche de salle';
 		

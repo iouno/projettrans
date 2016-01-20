@@ -11,7 +11,7 @@
 		<body>
 			<div id="entete">
 				<div id="title">
-					<?php echo anchor('artiste/accueil','Web Platform de Projet Trans') ?>
+					<?php echo anchor('sessions/accueil','Web Platform de Projet Trans') ?>
 				</div>
 
 				<p class="sous-titre">
@@ -21,7 +21,7 @@
 			</div>
 
 			<div id="action">
-				<?php echo anchor('artiste/'.$action,$label) ?>
+				<?php echo anchor('sessions/'.$action,$label) ?>
 			</div>
 
 			<div id="contenu">

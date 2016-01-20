@@ -20,6 +20,6 @@
 	<?php echo $msg_valid ?>
 <p>
 <?php endif; ?>
-	<?php echo anchor('artiste/connexion','Vous possédez déjà un compte ?') ?>
+	<?php echo anchor('sessions/connexion','Vous possédez déjà un compte ?') ?>
 </p>
 </body>

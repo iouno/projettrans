@@ -54,7 +54,7 @@ class Sessions extends CI_Controller
 
 		$data['title'] = 'Inscription';
 
-		$this->form_validation->set_rules('nom', 'Nom', 'required');
+		$this->form_validation->set_rules('nom', 'Nom', 'required|is_unique[_artiste.nom]');
 		$this->form_validation->set_rules('mail', 'Adresse e-mail', 'required');
 		$this->form_validation->set_rules('pays', "Pays d'origine", 'required');
 		$this->form_validation->set_rules('dateDeb', 'Date de début', 'required');
@@ -68,7 +68,7 @@ class Sessions extends CI_Controller
 
 		if($this->form_validation->run() !== FALSE)
 		{
-			if (!empty($this->artiste_model->get_user_by_name($this->input->post('nom'))))
+			if (!empty($this->artiste_model->get_artiste_by_name($this->input->post('nom'))))
 			{
 				$data['msg_erreur'] = "Un autre groupe possède déja ce nom.";
 			}

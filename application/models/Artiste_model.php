@@ -11,9 +11,9 @@ class Artiste_model extends CI_Model {
 		return $query->result_array();
 	}
 
-	public function get_user_by_name($name)
+	public function get_artiste_by_name($name)
 	{
-		$query = $this->db->query('SELECT * FROM transmusicales._utilisateur WHERE nom = '."'".$name."'");
+		$query = $this->db->query('SELECT * FROM transmusicales._artiste WHERE nom = '."'".$name."'");
 		return $query->result_array();
 	}
 

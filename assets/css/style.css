@@ -6,8 +6,15 @@
 }
 
 @font-face {
-    font-family: 'Aaargh-webfont';
-    src: url('../font/Aaargh-webfont.ttf') format('truetype');
+    font-family: 'diavlo';
+    src: url('../font/diavlo.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'diavlo_bold';
+    src: url('../font/diavlo_bold.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -25,7 +32,8 @@ body {
 	padding: 0;
 	background: url('../img/background.jpg') fixed no-repeat;
 	background-position:right top;
-	font-family: 'Calibri', Arial, sans-serif;
+	font-family: 'diavlo', 'Calibri', Arial, sans-serif;
+	color: #464646;
 }
 
 #main {
@@ -50,14 +58,18 @@ section {
 section h1 {
 	font-family: 'steelfish', 'Calibri', Arial, sans-serif;
 	font-size: 3em;
+	color: #301714
 }
 
 form label {
+	font-family: 'diavlo_bold', 'Calibri', Arial, sans-serif;
 	font-size: 1.2em;
+	color: #301714;
 }
 
 input, select {
 	width: 300px;
+	margin: 10px;
 }
 
 .button {

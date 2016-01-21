@@ -3,7 +3,7 @@
 <?php if (empty($msg_valid)) : ?>
 <div class="content">
 	<form method="post" action="<?php $_SERVER['PHP_SELF']?>" enctype="multipart/form-data">
-		<p>Veuillez renserigner tous les champs afin de valider votre inscription</p>
+		<p>Veuillez renseigner tous les champs afin de valider votre inscription</p>
 		<p>
 			<label for="nom">Nom</label><br />
 			<input name="nom" type="text" id="nom"/><br />

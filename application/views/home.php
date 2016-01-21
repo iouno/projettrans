@@ -1,5 +1,8 @@
-
-Je suis déconnecté.
-
-<p><?php echo anchor('sessions/inscription','inscrivez-vous') ?></p>
+<h1>Bienvenue !</h1>
+<p>
+	
+</p>
+<div id="inscription">
+	<?php echo anchor('sessions/inscription','Inscrivez-vous !') ?>
+</div>
 

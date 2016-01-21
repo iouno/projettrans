@@ -11,17 +11,16 @@
 		<body>
 			<div id="main">
 				<header>
+					<a href="http://lestrans.com/"><img id="logo_trans" src="../../assets/img/transmusicales.png" alt="Logo du festival Trans Musicales" /></a>
+					
 					<div id="title">
-						<?php echo anchor('sessions/accueil','Web Platform de Projet Trans') ?>
+						<?php echo anchor('sessions/accueil','Les Salles') ?>
 					</div>
-
-					<p class="sous-titre">
-						<strong>Caractéristiques:</strong> platform web de réservation de salle
-					</p>
 
 					<div id="action">
 						<?php echo anchor('sessions/'.$action,$label) ?>
 					</div>
 				</header>
+					
 
 				<section>

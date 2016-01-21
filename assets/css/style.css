@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'daela';
+    src: url('../font/daela.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
 	height: 100%;
 	min-height: 100%;
@@ -30,10 +37,13 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background: url('../img/background.jpg') fixed no-repeat;
-	background-position:right top;
+	background: url('../img/background.jpg') fixed no-repeat center top;
 	font-family: 'diavlo', 'Calibri', Arial, sans-serif;
 	color: #464646;
+}
+
+a {
+	color: #301714
 }
 
 #main {
@@ -42,9 +52,32 @@ body {
 }
 
 header {
-	height: 10%
+	height: 10%;
+	margin: 20px;
 }
 
+#logo_trans {
+	height: 150px;
+}
+
+#title {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 100px;
+	font-size: 150px;
+	font-family: 'daela', 'steelfish', 'Calibri', Arial, sans-serif;
+}
+
+#title a {
+	text-decoration: none;
+	color: #231f20;
+}
+
+#action {
+	position: fixed;
+	display: inline-block;
+	right: 30px;
+}
 section {
 	position: relative;
 	width: 800px;
@@ -96,7 +129,7 @@ footer {
 	width: 100%;
 	margin: 0;
 	bottom: 0;
-	background: #301714;
+	background: #0a0a0a;
 }
 
 footer p {

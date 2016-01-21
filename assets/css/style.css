@@ -1,10 +1,66 @@
+@font-face {
+    font-family: 'steelfish';
+    src: url('../font/steelfish.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aaargh-webfont';
+    src: url('../font/Aaargh-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
+	height: 100%;
+	width: 100%;
 	margin: 0;
 	padding: 0;
+	background: url('../img/background.jpg') fixed no-repeat;
+	background-position:right top;
+	font-family: 'Calibri', Arial, sans-serif;
+}
+
+header {
 }
 
 section {
+	position: static;
 	width: 800px;
-	margin: 0 auto;
+	margin: 20px auto;
+	padding: 20px;
+	background: white;
+	text-align: center;
+}
+
+section h1 {
+	font-family: 'steelfish', 'Calibri', Arial, sans-serif;
+	font-size: 3em;
+}
+
+form label {
+	font-family: 'Aaargh-webfont', 'Calibri', Arial, sans-serif;
+	font-size: 1.5em;
+}
+
+input, select {
+	width: 300px;
+}
+
+.button {
+	width: 150px;
+}
+
+footer {
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	bottom: 0;
+	background: #301714;
+}
+
+footer p {
+	text-align: center;
+	color: #9e875f;
 }

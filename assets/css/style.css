@@ -46,6 +46,14 @@ a {
 	color: #301714
 }
 
+.erreur {
+	color: #b90000;
+}
+
+em {
+	font-size: 0.8em;
+}
+
 #main {
 	min-height:100%;
 	position:relative;
@@ -135,4 +143,8 @@ footer {
 footer p {
 	text-align: center;
 	color: #9e875f;
+}
+
+footer strong {
+	color: #b19f81;
 }

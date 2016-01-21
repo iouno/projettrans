@@ -28,7 +28,7 @@
 ?>
 
 <h1>Rechercher une salle</h1>
-<form method="post" action="<?php $_SERVER['PHP_SELF']?>" enctype="multipart/form-data">
+<form method="post" action="resultat" enctype="multipart/form-data">
 	<p>
 		<label for="nom">Nom de la salle</label><br />
 		<input name="nom" type="text" />

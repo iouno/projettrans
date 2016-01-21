@@ -1,5 +1,5 @@
 <h1>Connexion</h1>
-<form method="post" action="<?php $_SERVER['PHP_SELF'] ?>">
+<form method="post" action="connexion">
 	<p class="erreur"><?php echo $msg_erreur ?></p>
 	<p>
 		<label>Identifiant</label><br />

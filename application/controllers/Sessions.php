@@ -25,8 +25,9 @@ class Sessions extends CI_Controller
 		if ($this->session->all_userdata()['etat'] == 'connected')
 		{
 			$data['action']='deconnexion';
-			$data['label']='Se déconnecter';			
-			if (in_array($this->session->all_userdata()['user']['idutilisateur'], $this->artiste_model->get_respatm()))
+			$data['label']='Se déconnecter';
+
+			if ($this->is_id_resp_atm($this->session->all_userdata()['user']['idutilisateur']))
 			{	
 				$home = 'home_atm';
 			}
@@ -137,20 +138,29 @@ class Sessions extends CI_Controller
 				}
 			}
 
-			if ($this->session->all_userdata()['etat'] !== 'connected')
-			{
-				$data['action']='connexion';
-				$data['label']='Se connecter';
-				$this->load->view('header', $data);
-				$this->load->view('connexion', $data);
-				$this->load->view('footer');
-			}
+			$data['action']='connexion';
+			$data['label']='Se connecter';
+			$this->load->view('header', $data);
+			$this->load->view('connexion', $data);
+			$this->load->view('footer');
 		}
 	}
 
 	public function deconnexion()
 	{
 		$this->index();
+	}
+
+	public function is_id_resp_atm($id)
+	{
+		$lesRespATM = $this->artiste_model->get_respatm();
+		$exist = FALSE;
+		foreach ($lesRespATM as $num => $unResp) {
+			if ($unResp['idrespatm'] == $id) {
+				$exist = TRUE;
+			}
+		}
+		return $exist;
 	}
 }
 ?>

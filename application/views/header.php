@@ -9,18 +9,19 @@
 		</head>
 
 		<body>
-			<header>
-				<div id="title">
-					<?php echo anchor('sessions/accueil','Web Platform de Projet Trans') ?>
-				</div>
+			<div id="main">
+				<header>
+					<div id="title">
+						<?php echo anchor('sessions/accueil','Web Platform de Projet Trans') ?>
+					</div>
 
-				<p class="sous-titre">
-					<strong>Caractéristiques:</strong> platform web de réservation de salle
-				</p>
+					<p class="sous-titre">
+						<strong>Caractéristiques:</strong> platform web de réservation de salle
+					</p>
 
-				<div id="action">
-					<?php echo anchor('sessions/'.$action,$label) ?>
-				</div>
-			</header>
+					<div id="action">
+						<?php echo anchor('sessions/'.$action,$label) ?>
+					</div>
+				</header>
 
-			<section>
+				<section>

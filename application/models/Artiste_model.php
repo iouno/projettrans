@@ -23,6 +23,13 @@ class Artiste_model extends CI_Model {
 		return $query->result_array();
 	}
 
+	public function get_reserv_attente()
+	{
+		$query = $this->db->query('SELECT * FROM transmusicales._reservation WHERE statut = '."'attente'");
+		return $query->result_array();
+		// Join
+	}
+
 	public function add_artiste()
 	{
 		$data = array (

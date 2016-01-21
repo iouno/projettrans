@@ -8,7 +8,7 @@
 				<?php if ($redirect == 1) : ?>
 					<META HTTP-EQUIV=REFRESH CONTENT="1; URL=<?php echo base_url(); ?>index.php/artiste/recherche">
 				<?php elseif ($redirect ==2) : ?>
-					<META HTTP-EQUIV=REFRESH CONTENT="1; URL=<?php echo base_url(); ?>index.php/atm/accueil">
+					<META HTTP-EQUIV=REFRESH CONTENT="1; URL=<?php echo base_url(); ?>index.php/atm/traiter_reservation">
 				<?php endif; ?>
 			<?php endif; ?>
 			<title>TransFestival | <?php echo $title ?></title>

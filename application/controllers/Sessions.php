@@ -20,7 +20,6 @@ class Sessions extends CI_Controller
 	public function accueil()
 	{
 		$data['title'] = 'Accueil';
-		$data['iduser'] = null;
 
 		if ($this->session->all_userdata()['etat'] == 'connected')
 		{
@@ -29,12 +28,13 @@ class Sessions extends CI_Controller
 
 			if ($this->is_id_resp_atm($this->session->all_userdata()['user']['idutilisateur']))
 			{	
-				$home = 'home_atm';
+				$data['redirect'] = 2;
 			}
 			else
 			{
-				$home = 'home_artiste';
+				$data['redirect'] = 1;
 			}
+			$home = 'connected';
 		}
 		else
 		{
@@ -44,7 +44,7 @@ class Sessions extends CI_Controller
 		}
 
 		$this->load->view('header', $data);
-		$this->load->view($home, $data);
+		$this->load->view($home);
 		$this->load->view('footer');
 	}
 
@@ -138,11 +138,14 @@ class Sessions extends CI_Controller
 				}
 			}
 
-			$data['action']='connexion';
-			$data['label']='Se connecter';
-			$this->load->view('header', $data);
-			$this->load->view('connexion', $data);
-			$this->load->view('footer');
+			if ($this->session->all_userdata()['etat'] != 'connected')
+			{
+				$data['action']='connexion';
+				$data['label']='Se connecter';
+				$this->load->view('header', $data);
+				$this->load->view('connexion', $data);
+				$this->load->view('footer');
+			}
 		}
 	}
 

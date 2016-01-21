@@ -43,7 +43,7 @@ body {
 }
 
 a {
-	color: #301714
+	color: #301714;
 }
 
 .erreur {
@@ -84,8 +84,23 @@ header {
 #action {
 	position: fixed;
 	display: inline-block;
-	right: 30px;
+	width: 130px;
+	margin-top: 20px;
+	right: 50px;
+	padding: 10px;
+	background: #301714;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #0a0a0a;
+	text-align: center;
 }
+
+#action a {
+	text-decoration: none;
+	color: #b19f81;
+}
+
+/* SECTION */
+
 section {
 	position: relative;
 	width: 800px;

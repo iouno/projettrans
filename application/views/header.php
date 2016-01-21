@@ -4,6 +4,13 @@
 	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+			<?php if (isset($redirect)) : ?>
+				<?php if ($redirect == 1) : ?>
+					<META HTTP-EQUIV=REFRESH CONTENT="1; URL=<?php echo base_url(); ?>index.php/artiste/recherche">
+				<?php elseif ($redirect ==2) : ?>
+					<META HTTP-EQUIV=REFRESH CONTENT="1; URL=<?php echo base_url(); ?>index.php/atm/accueil">
+				<?php endif; ?>
+			<?php endif; ?>
 			<title>TransFestival | <?php echo $title ?></title>
 			<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/style.css" />
 		</head>
@@ -11,7 +18,7 @@
 		<body>
 			<div id="main">
 				<header>
-					<a href="http://lestrans.com/"><img id="logo_trans" src="../../assets/img/transmusicales.png" alt="Logo du festival Trans Musicales" /></a>
+					<a href="http://lestrans.com/"><img id="logo_trans" src="<?php echo base_url(); ?>/assets/img/transmusicales.png" alt="Logo du festival Trans Musicales" /></a>
 					
 					<div id="title">
 						<?php echo anchor('sessions/accueil','Les Salles') ?>

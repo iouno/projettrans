@@ -160,3 +160,9 @@ insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays,
 	values (2, 'Alsarah & The Nubatones', 'Chant / basse / oud / percussions', '2010 / Alsarah seule : première moitiè des années 2000', 'Soudan', 'Rétro pop d\'Afrique de l\'Est', 'Musique nubienne', 'www.alsarah.com', 'alsarah@gmail.com');
 
 insert into TransMusicales._utilisateur (idUtilisateur, login, pass) values (2, 'als001', '2jU68Xqp');
+
+insert into TransMusicales._journee (jour) values ('2016-12-02');
+insert into TransMusicales._journee (jour) values ('2016-12-03');
+insert into TransMusicales._journee (jour) values ('2016-12-04');
+insert into TransMusicales._journee (jour) values ('2016-12-05');
+insert into TransMusicales._journee (jour) values ('2016-12-06');

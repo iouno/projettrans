@@ -239,7 +239,7 @@
 		</p>
 		<p>
 			<label for="site">Site web</label><br />
-			<input name="site" type="text" id="site"/>
+			<input name="site" type="url" id="site"/>
 		</p>
 		<p>
 			<input type="submit" value="S'inscrire" class="button" />

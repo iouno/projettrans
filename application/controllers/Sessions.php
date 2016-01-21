@@ -76,7 +76,7 @@ class Sessions extends CI_Controller
 			else
 			{
 				// Envoyer les données en attente de validation par l'ATM.
-				$data['msg_valid'] 	= "Un identifiant et un mot de passe vous serons envoyés par courriel lorsque votre inscription sera validée.";
+				$data['msg_valid'] 	= "Votre demande de réservation a été prise en compte. Un identifiant et un mot de passe vous serons envoyés par courriel lorsque votre inscription sera validée.";
 			}
 
 		}

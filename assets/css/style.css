@@ -81,13 +81,22 @@ header {
 	color: #231f20;
 }
 
+#lang {
+	position: absolute;
+	display: inline-block;
+	height: 20px;
+	margin-top: 20px;
+	right: 200px;
+}
+
 #action {
-	position: fixed;
+	position: absolute;
 	display: inline-block;
 	width: 130px;
+	height: 20px;
 	margin-top: 20px;
-	right: 50px;
 	padding: 10px;
+	right: 50px;
 	background: #301714;
 	border-radius: 5px;
 	box-shadow: 0 2px 0 #0a0a0a;
@@ -97,6 +106,10 @@ header {
 #action a {
 	text-decoration: none;
 	color: #b19f81;
+}
+
+#action a:hover {
+	color: #f7f1db;
 }
 
 /* SECTION */

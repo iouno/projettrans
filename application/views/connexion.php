@@ -13,5 +13,5 @@
 	</fieldset>
 	<p> <input type="submit" value="Connexion"/> </p>
 </form>
-<?php echo anchor('artiste/inscription','Pas encore inscrit ?') ?>
+<?php echo anchor('sessions/inscription','Pas encore inscrit ?') ?>
 

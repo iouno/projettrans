@@ -1,5 +1,11 @@
-CREATE SCHEMA TransMusicales;
+﻿CREATE SCHEMA TransMusicales;
 SET SCHEMA 'TransMusicales';
+
+CREATE TABLE TransMusicales._id (
+	id	INTEGER NOT NULL,
+	CONSTRAINT _id_pk
+		PRIMARY KEY(id)
+);
 
 CREATE TABLE TransMusicales._utilisateur (
 	idUtilisateur	INTEGER	NOT NULL,
@@ -10,7 +16,7 @@ CREATE TABLE TransMusicales._utilisateur (
 	CONSTRAINT _utilisateur_u
 		UNIQUE (login),
 	CONSTRAINT _utilisateur_fk
-		REFERENCES TransMusicales._id (id)
+		FOREIGN KEY (idUtilisateur) REFERENCES TransMusicales._id (id)
 );
 
 CREATE TABLE TransMusicales._respATM (
@@ -44,6 +50,8 @@ CREATE TABLE TransMusicales._artiste (
 		PRIMARY KEY(idArtiste),
 	CONSTRAINT _artiste_u
 		UNIQUE (nom),
+	CONSTRAINT _artiste_fk 
+		FOREIGN KEY (idArtiste) REFERENCES transmusicales._id (id),
 	CONSTRAINT _artiste_u2
 		UNIQUE (img1),
 	CONSTRAINT _artiste_u3
@@ -152,6 +160,59 @@ CONSTRAINT _annulation_fk1
 		FOREIGN KEY(creneau) REFERENCES TransMusicales._creneau(idCreneau)
 );
 
+insert into TransMusicales._id (id) values (1);
+insert into TransMusicales._id (id) values (2);
+insert into TransMusicales._id (id) values (3);
+insert into TransMusicales._id (id) values (4);
+insert into TransMusicales._id (id) values (5);
+insert into TransMusicales._id (id) values (6);
+insert into TransMusicales._id (id) values (7);
+insert into TransMusicales._id (id) values (8);
+insert into TransMusicales._id (id) values (9);
+insert into TransMusicales._id (id) values (10);
+insert into TransMusicales._id (id) values (11);
+insert into TransMusicales._id (id) values (12);
+insert into TransMusicales._id (id) values (13);
+insert into TransMusicales._id (id) values (14);
+insert into TransMusicales._id (id) values (15);
+insert into TransMusicales._id (id) values (16);
+insert into TransMusicales._id (id) values (17);
+insert into TransMusicales._id (id) values (18);
+insert into TransMusicales._id (id) values (19);
+insert into TransMusicales._id (id) values (20);
+insert into TransMusicales._id (id) values (21);
+insert into TransMusicales._id (id) values (22);
+insert into TransMusicales._id (id) values (23);
+insert into TransMusicales._id (id) values (24);
+insert into TransMusicales._id (id) values (25);
+insert into TransMusicales._id (id) values (26);
+insert into TransMusicales._id (id) values (27);
+insert into TransMusicales._id (id) values (28);
+insert into TransMusicales._id (id) values (29);
+insert into TransMusicales._id (id) values (30);
+insert into TransMusicales._id (id) values (31);
+insert into TransMusicales._id (id) values (32);
+insert into TransMusicales._id (id) values (33);
+insert into TransMusicales._id (id) values (34);
+insert into TransMusicales._id (id) values (35);
+insert into TransMusicales._id (id) values (36);
+insert into TransMusicales._id (id) values (37);
+insert into TransMusicales._id (id) values (38);
+insert into TransMusicales._id (id) values (39);
+insert into TransMusicales._id (id) values (40);
+insert into TransMusicales._id (id) values (41);
+insert into TransMusicales._id (id) values (42);
+insert into TransMusicales._id (id) values (43);
+insert into TransMusicales._id (id) values (44);
+insert into TransMusicales._id (id) values (45);
+insert into TransMusicales._id (id) values (46);
+insert into TransMusicales._id (id) values (47);
+insert into TransMusicales._id (id) values (48);
+insert into TransMusicales._id (id) values (49);
+insert into TransMusicales._id (id) values (50);
+insert into TransMusicales._id (id) values (51);
+insert into TransMusicales._id (id) values (52);
+
 insert into TransMusicales._utilisateur (idUtilisateur, login, pass) values (1, 'atm001', 'password');
 
 insert into TransMusicales._respATM (idRespATM, nom) values (1, 'Marc Janvier');
@@ -203,7 +264,7 @@ insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays,
 insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays, genre, parente, site, mail) values (46, 'Le Zoo', 'Solo', '2006', 'Etats-Unis', 'Musique populaire africaine', 'Musique populaire africaine', 'www.atfa.com', 'atfa@hotmail.com');
 insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays, genre, parente, site, mail) values (47, 'Lizzo', 'Solo', '2006', 'Etats-Unis', 'Musique populaire africaine', 'Musique populaire africaine', 'www.atfa.com', 'atfa@hotmail.com');
 insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays, genre, parente, site, mail) values (48, 'Lord Paramour', 'Solo', '2006', 'Etats-Unis', 'Musique populaire africaine', 'Musique populaire africaine', 'www.atfa.com', 'atfa@hotmail.com');
-insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays, genre, parente, site, mail) values (49, "Mac lArnaque", 'Solo', '2006', 'Etats-Unis', 'Musique populaire africaine', 'Musique populaire africaine', 'www.atfa.com', 'atfa@hotmail.com');
+insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays, genre, parente, site, mail) values (49, 'Mac lArnaque', 'Solo', '2006', 'Etats-Unis', 'Musique populaire africaine', 'Musique populaire africaine', 'www.atfa.com', 'atfa@hotmail.com');
 insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays, genre, parente, site, mail) values (50, 'Marco Barotti', 'Solo', '2006', 'Etats-Unis', 'Musique populaire africaine', 'Musique populaire africaine', 'www.atfa.com', 'atfa@hotmail.com');
 insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays, genre, parente, site, mail) values (51, 'Max Jury', 'Solo', '2006', 'Etats-Unis', 'Musique populaire africaine', 'Musique populaire africaine', 'www.atfa.com', 'atfa@hotmail.com');
 insert into TransMusicales._artiste (idArtiste, nom, formation, dateDebut, pays, genre, parente, site, mail) values (52, 'Metà Metà', 'Solo', '2006', 'Etats-Unis', 'Musique populaire africaine', 'Musique populaire africaine', 'www.atfa.com', 'atfa@hotmail.com');
@@ -283,7 +344,7 @@ insert into TransMusicales._reservation (dateReserv, statut, artiste, creneau) v
 insert into TransMusicales._reservation (dateReserv, statut, artiste, creneau) values (current_date, 'validee', 4,	4);
 insert into TransMusicales._reservation (dateReserv, statut, artiste, creneau) values (current_date, 'validee', 5,	5);
 insert into TransMusicales._reservation (dateReserv, statut, artiste, creneau) values (current_date, 'validee', 4,	6);
-insert into TransMusicales._reservation (dateReserv, statut, artiste, creneau) values (current_date, 'validee', 1,	7);
+insert into TransMusicales._reservation (dateReserv, statut, artiste, creneau) values (current_date, 'validee', 2,	7);
 insert into TransMusicales._reservation (dateReserv, statut, artiste, creneau) values (current_date, 'validee', 2,	8);
 insert into TransMusicales._reservation (dateReserv, statut, artiste, creneau) values (current_date, 'validee', 3,	9);
 insert into TransMusicales._reservation (dateReserv, statut, artiste, creneau) values (current_date, 'validee', 4, 10);

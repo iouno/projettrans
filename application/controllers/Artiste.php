@@ -27,7 +27,17 @@ class Artiste extends CI_Controller
 		$data['action']='deconnexion';
 		$data['label']='Se déconnecter';
 		$this->load->view('header', $data);
-		$this->load->view('recherche', $data);
+		$this->load->view('nav_artiste');
+		$this->load->view('recherche');
+		$this->load->view('footer');
+	}
+
+	public function resultat() {
+		$data['action']='deconnexion';
+		$data['label']='Se déconnecter';
+		$this->load->view('header', $data);
+		$this->load->view('nav_artiste');
+		$this->load->view('resultat');
 		$this->load->view('footer');
 	}
 }

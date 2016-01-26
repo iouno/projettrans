@@ -20,20 +20,21 @@ class Sessions extends CI_Controller
 	public function accueil()
 	{
 		$data['title'] = 'Accueil';
-		$data['iduser'] = null;
 
 		if ($this->session->all_userdata()['etat'] == 'connected')
 		{
 			$data['action']='deconnexion';
-			$data['label']='Se déconnecter';			
-			if (in_array($this->session->all_userdata()['user']['idutilisateur'], $this->artiste_model->get_respatm()))
+			$data['label']='Se déconnecter';
+
+			if ($this->is_id_resp_atm($this->session->all_userdata()['user']['idutilisateur']))
 			{	
-				$home = 'home_atm';
+				$data['redirect'] = 2;
 			}
 			else
 			{
-				$home = 'home_artiste';
+				$data['redirect'] = 1;
 			}
+			$home = 'connected';
 		}
 		else
 		{
@@ -43,7 +44,7 @@ class Sessions extends CI_Controller
 		}
 
 		$this->load->view('header', $data);
-		$this->load->view($home, $data);
+		$this->load->view($home);
 		$this->load->view('footer');
 	}
 
@@ -75,7 +76,7 @@ class Sessions extends CI_Controller
 			else
 			{
 				// Envoyer les données en attente de validation par l'ATM.
-				$data['msg_valid'] = "Un identifiant et un mot de passe vous serons envoyés par courriel lorsque votre inscription sera validée.";
+				$data['msg_valid'] 	= "Votre demande de réservation a été prise en compte. Un identifiant et un mot de passe vous serons envoyés par courriel lorsque votre inscription sera validée.";
 			}
 
 		}
@@ -137,7 +138,7 @@ class Sessions extends CI_Controller
 				}
 			}
 
-			if ($this->session->all_userdata()['etat'] !== 'connected')
+			if ($this->session->all_userdata()['etat'] != 'connected')
 			{
 				$data['action']='connexion';
 				$data['label']='Se connecter';
@@ -151,6 +152,18 @@ class Sessions extends CI_Controller
 	public function deconnexion()
 	{
 		$this->index();
+	}
+
+	public function is_id_resp_atm($id)
+	{
+		$lesRespATM = $this->artiste_model->get_respatm();
+		$exist = FALSE;
+		foreach ($lesRespATM as $num => $unResp) {
+			if ($unResp['idrespatm'] == $id) {
+				$exist = TRUE;
+			}
+		}
+		return $exist;
 	}
 }
 ?>

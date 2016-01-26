@@ -1,13 +1,291 @@
+@font-face {
+    font-family: 'steelfish';
+    src: url('../font/steelfish.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'diavlo';
+    src: url('../font/diavlo.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'diavlo_bold';
+    src: url('../font/diavlo_bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'daela';
+    src: url('../font/daela.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
 body {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
 	margin: 0;
 	padding: 0;
-	background: url('../images/background.jpg');
-	background-position:right top;
+	background: url('../img/background.jpg') fixed no-repeat center top;
+	font-family: 'diavlo', 'Calibri', Arial, sans-serif;
+	color: #464646;
 }
+
+a {
+	color: #301714;
+}
+
+.erreur {
+	color: #b90000;
+}
+
+em {
+	font-size: 0.8em;
+}
+
+#main {
+	min-height:100%;
+	position:relative;
+}
+
+header {
+	height: 10%;
+	margin: 20px;
+}
+
+#logo_trans {
+	height: 150px;
+}
+
+#title {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 100px;
+	font-size: 150px;
+	font-family: 'daela', 'steelfish', 'Calibri', Arial, sans-serif;
+}
+
+#title a {
+	text-decoration: none;
+	color: #231f20;
+}
+
+#lang {
+	position: absolute;
+	display: inline-block;
+	height: 20px;
+	margin-top: 20px;
+	right: 200px;
+}
+
+#action {
+	position: absolute;
+	display: inline-block;
+	width: 130px;
+	height: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	right: 50px;
+	background: #301714;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #0a0a0a;
+	text-align: center;
+}
+
+#action a {
+	text-decoration: none;
+	color: #b19f81;
+}
+
+#action a:hover {
+	color: #f7f1db;
+}
+
+/* SECTION */
 
 section {
+	position: relative;
 	width: 800px;
-	margin: 0 auto;
-	background:#DEB887;
+	margin: 20px auto 0 auto;
+	padding: 20px;
+	padding-bottom: 100px;
+	background: white;
+	text-align: center;
 }
 
+nav,
+nav ul,
+nav ul li,
+nav ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+nav:after,
+nav > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+nav {
+  width: auto;
+  border-bottom: 3px solid #132c6e;
+  font-family: 'diavlo_bold', 'Calibri', sans-serif;
+  line-height: 1;
+}
+nav > ul > li {
+  float: left;
+}
+nav.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+nav.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+nav.align-right > ul > li {
+  float: right;
+}
+nav.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+nav > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #444444;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+nav > ul > li.active > a,
+nav > ul > li:hover > a,
+nav > ul > li > a:hover {
+  color: #ffffff;
+}
+nav > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+nav > ul > li.active > a:after,
+nav > ul > li:hover > a:after,
+nav > ul > li > a:hover:after {
+  background: #132c6e;
+}
+
+#inscription {
+	margin: 50px auto;
+	width: 250px;
+	height: 40px;
+	padding: 10px;
+	background: #132c6e;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #0a0a0a;
+	text-align: center;
+}
+
+#inscription a {
+	text-decoration: none;
+	font-size: 1.8em;
+	color: #b19f81;
+}
+
+#inscription a:hover {
+	color: #d5bf99;
+}
+
+section h1 {
+	font-family: 'steelfish', 'Calibri', Arial, sans-serif;
+	font-size: 3em;
+	color: #301714
+}
+
+form label {
+	font-family: 'diavlo_bold', 'Calibri', Arial, sans-serif;
+	font-size: 1.2em;
+	color: #301714;
+}
+
+input, select {
+	width: 300px;
+	margin: 10px;
+}
+
+.button {
+	width: 150px;
+}
+
+.checkbox {
+	width: 400px;
+	text-align: left;
+	margin-left: 250px;
+}
+
+.checkbox input {
+	width: 40px;
+}
+
+.lselect {
+	width: 60px;
+}
+
+footer {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	bottom: 0;
+	background: #0a0a0a;
+}
+
+footer p {
+	text-align: center;
+	color: #9e875f;
+}
+
+footer strong {
+	color: #b19f81;
+}

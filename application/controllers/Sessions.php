@@ -64,19 +64,19 @@ class Sessions extends CI_Controller
 		$this->form_validation->set_rules('parentes', 'Parentés', 'required');
 		$this->form_validation->set_rules('site', 'Site web', 'required');
 
-		$data['msg_erreur'] = NULL;
-		$data['msg_valid'] = NULL;
+		$content = 'register';
 
 		if($this->form_validation->run() !== FALSE)
 		{
-			if (!empty($this->artiste_model->get_artiste_by_name($this->input->post('nom'))))
+			if (empty($this->artiste_model->get_artiste_by_name($this->input->post('nom'))))
 			{
-				$data['msg_erreur'] = "Un autre groupe possède déja ce nom.";
+				$this->artiste_model->add_artiste();
+				$content = 'registerOk';
 			}
 			else
 			{
-				// Envoyer les données en attente de validation par l'ATM.
-				$data['msg_valid'] 	= "Votre demande de réservation a été prise en compte. Un identifiant et un mot de passe vous serons envoyés par courriel lorsque votre inscription sera validée.";
+				print_r($this->artiste_model->get_artiste_by_name($this->input->post('nom')));
+				$data['msg_erreur'] = 'Un autre groupe possède déja ce nom.';
 			}
 
 		}
@@ -90,7 +90,7 @@ class Sessions extends CI_Controller
 			$data['action']='connexion';
 			$data['label']='Se connecter';
 			$this->load->view('header', $data);
-			$this->load->view('register', $data);
+			$this->load->view($content, $data);
 			$this->load->view('footer');
 		}
 	}

@@ -37,28 +37,27 @@
 		<label for="date">Date</label><br />
 		<?php foreach ($journees as $journee): ?>
 		<div class="checkbox">
-			<input type="checkbox" name="date" value="<?php echo key($journees) ?>" ><?php $date = new DateTime($journee['jour']); echo $date->format('l j F') ?><br />
+			<input type="checkbox" name="date" value="<?php echo $journee['jour'] ?>" ><?php $date = new DateTime($journee['jour']); echo $date->format('l j F') ?><br />
 		</div>
 		<?php endforeach; ?>
 	</p>
 	<p>			
 		<label for="creneau">Créneau horaire</label><br />
 		de
-		<select name="capacite" class="lselect">
+		<select name="creneau" class="lselect">
 		<?php foreach ($time as $hour): ?>
-			<option value="<?php echo key($time) ?>"><?php echo $hour ?></option>
+			<option value="<?php echo $hour ?>"><?php echo $hour ?></option>
 		<?php endforeach; ?>
 		</select> 
 		à
-		<select name="capacite" class="lselect">
+		<select name="creneau" class="lselect">
 		<?php foreach ($time as $hour): ?>
-			<option value="<?php echo key($time) ?>"><?php echo $hour ?></option>
+			<option value="<?php echo $hour ?>"><?php echo $hour ?></option>
 		<?php endforeach; ?>
 		</select> 
 	</p>
 	<p>			
 		<label for="capacite">Capacité de la salle</label><br />
-		<!-- A AUTOMATISER -->
 		<select name="capacite">
 			<option value="1">&lt 100</option>
 			<option value="2">&gt 100 et &lt 200</option>

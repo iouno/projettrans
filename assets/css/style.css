@@ -272,6 +272,55 @@ input, select {
 	width: 60px;
 }
 
+.mselect {
+	width: 140px;
+}
+
+#lesSalles {
+	margin: 0 auto;
+}
+
+.salle {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	margin: 20px;
+	padding: 10px;
+	background: #f0e2c6;
+}
+
+.nomSalle {
+	font-family: 'diavlo_bold', 'Calibri', Arial, sans-serif;
+	min-height: 50px;
+	font-size: 1.5em;
+	color: #301714;
+}
+
+.salle input {
+	width: 80px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 20px auto;
+}
+
+td,th {
+	border: 1px solid #aba7a7;
+	padding: 5px;
+}
+
+th {
+	background: #132c6e;
+	color: white;
+}
+
+td {
+
+	font-size: 0.9em;
+}
+
 footer {
 	position: absolute;
 	height: 100px;

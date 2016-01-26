@@ -1,13 +1,12 @@
 <h1> Inscription </h1>
 
-<?php if (empty($msg_valid)) : ?>
 <div class="content">
 	<form method="post" action="<?php $_SERVER['PHP_SELF']?>" enctype="multipart/form-data">
 		<p>Veuillez renseigner tous les champs afin de valider votre inscription</p>
 		<p>
 			<label for="nom">Nom</label><br />
 			<input name="nom" type="text" id="nom"/><br />
-			<em>Le nom doit contenir entre 3 et 50 caractères</em>
+			<?php if(isset($msg_erreur)): ?><strong><?php echo $msg_erreur ?></strong><?php endif; ?>
 		</p>
 		<p>
 			<label for="mail">E-mail</label><br />
@@ -239,17 +238,13 @@
 		</p>
 		<p>
 			<label for="site">Site web</label><br />
-			<input name="site" type="url" id="site"/>
+			<input name="site" type="text" id="site"/>
 		</p>
 		<p>
 			<input type="submit" value="S'inscrire" class="button" />
 		</p>
 	</form>
-	<?php else : ?>
 	<p>
-		<?php echo $msg_valid ?>
-	<p>
-	<?php endif; ?>
 		<?php echo anchor('sessions/connexion','Vous possédez déjà un compte ?') ?>
 	</p>
 </div>

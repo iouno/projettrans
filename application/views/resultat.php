@@ -1,7 +1,7 @@
-<h1>Résultat de la recherche</h1>
+<h1><?php echo_("Résultat de la recherche");?></h1>
 
 <?php if (empty($lesSalles)) : ?>
-	<p>Désolé, votre recherche n'a donné aucun résultat</p>
+	<p><?php echo_("Désolé, votre recherche n'a donné aucun résultat"); ?></p>
 <?php else : ?>
 	<form method="post" action="reserver" id="lesSalles">
 	<?php foreach ($lesSalles as $key => $value) : ?>
@@ -21,7 +21,7 @@
 				</select>
 			</p>
 
-			<input type="submit" value="Réserver" name="<?php echo $value['idsalle']?>" />
+			<input type="submit" value=<?php echo_("Réserver");?> name="<?php echo $value['idsalle']?>" />
 		</div>
 
 	<?php endforeach; ?>
@@ -29,5 +29,5 @@
 <?php endif; ?>
 
 <div id="inscription">
-	<?php echo anchor('artiste/recherche','Nouvelle recherche') ?>
+	<?php echo anchor('artiste/recherche',echo_("Nouvelle recherche")) ?>
 </div>

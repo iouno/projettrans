@@ -61,6 +61,8 @@ define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'developm
 * Different environments will require different levels of error reporting.
 * By default development will show errors but testing and live will hide them.
 */
+require "localization.php";
+
 switch (ENVIRONMENT)
 {
 case 'development':

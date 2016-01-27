@@ -1,15 +1,15 @@
-<h1>Traiter une demande de réservation</h1>
+<h1> <?php echo "Traiter une demande de réservation"; ?></h1>
 <?php if (empty($reservations)) : ?>
-	<p>Aucune demande de réservation ne requiert votre attention.</p>
+	<p><?php echo "Aucune demande de réservation ne requiert votre attention."; ?></p>
 <?php else : ?>
 <table>
 	<tr>
-		<th>Date de réservation</th>
-		<th>Artistes</th>
-		<th>Pays</th>
-		<th>Salle</th>
-		<th>Jour</th>
-		<th>Heure</th>
+		<th><?php echo "Date de réservation";?></th>
+		<th><?php echo "Artistes";?></th>
+		<th><?php echo "Pays"; ?></th>
+		<th><?php echo "Salle";?></th>
+		<th><?php echo "Jour"; ?></th>
+		<th><?php echo "Heure"; ?></th>
 	</tr>
 <?php foreach ($reservations as $reserv) : ?>
 	<tr>

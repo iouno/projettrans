@@ -1,3 +1,5 @@
+<?php require "..\..\localization.php"; ?>
+
 <?php
 	$time = array(
 		0 => "00:00",

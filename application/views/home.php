@@ -1,4 +1,4 @@
-<?php require ('../../localization.php'); ?>
+<?php require "localization.php"; ?>
 
 
 <p><?php echo anchor('artiste/inscription',echo_("Inscrivez-vous")) ?></p>

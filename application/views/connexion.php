@@ -1,4 +1,4 @@
-<?php require ('../../localization.php'); ?>
+<?php require "localization.php"; ?>
 
 <h1>Connexion</h1>
 <form method="post" action="connexion">

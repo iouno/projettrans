@@ -1,4 +1,4 @@
-<?php require "..\..\localization.php"; ?>
+<?php require "../../localization.php"; ?>
 <h1> <?php echo_("Traiter une demande de réservation"); ?></h1>
 <?php if (empty($reservations)) : ?>
 	<p><?php echo_("Aucune demande de réservation ne requiert votre attention."); ?></p>

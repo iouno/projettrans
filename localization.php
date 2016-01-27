@@ -1,7 +1,4 @@
 <?php
-
-error_reporting(E_ALL | E_STRICT);
-
 // define constants
 define('PROJECT_DIR', realpath('./'));
 define('LOCALE_DIR', PROJECT_DIR .'/locale');

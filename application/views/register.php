@@ -1,20 +1,20 @@
-<h1> Inscription </h1>
+<h1><?php echo_("Inscription"); ?></h1>
 
 <div class="content">
 	<form method="post" action="<?php $_SERVER['PHP_SELF']?>" enctype="multipart/form-data">
-		<p>Veuillez renseigner tous les champs afin de valider votre inscription</p>
+		<p><?php echo_("Veuillez renseigner tous les champs afin de valider votre inscription"); ?></p>
 		<p>
-			<label for="nom">Nom</label><br />
+			<label for="nom"><?php echo_("Nom"); ?></label><br />
 			<input name="nom" type="text" id="nom"/><br />
-			<?php if(isset($msg_erreur)): ?><strong><?php echo $msg_erreur ?></strong><?php endif; ?>
+			<?php if(isset($msg_erreur)): ?><strong><?php echo_($msg_erreur); ?></strong><?php endif; ?>
 		</p>
 		<p>
-			<label for="mail">E-mail</label><br />
+			<label for="mail"><?php echo_("E-mail"); ?></label><br />
 			<input name="mail" type="email" id="mail"/><br />
-			<em><strong>Attention</strong> : vous ressevrez vos identifiants de connexion avec cet e-mail</em>
+			<em><strong>Attention : </strong> <?php echo_("vous ressevrez vos identifiants de connexion avec cet e-mail"); ?></em>
 		</p>
 		<p>
-			<label>Pays</label><br />
+			<label><?php echo_("Pays"); ?></label><br />
 			<select name="pays">
 				<optgroup label="Afrique">
 					<option value="afriqueDuSud">Afrique Du Sud</option>
@@ -221,30 +221,30 @@
 			</select>
 		</p>
 		<p>
-			<label for="dateDeb">Date de début</label><br />
+			<label for="dateDeb"><?php echo_("Date de début"); ?></label><br />
 			<input name="dateDeb" type="text" id="dateDeb"/>
 		</p>
 		<p>
-			<label for="formation">Formation</label><br />
+			<label for="formation"><?php echo_("Formation"); ?></label><br />
 			<input name="formation" type="text" id="formation"/>
 		</p>
 		<p>
-			<label for="genre">Genre</label><br />
+			<label for="genre"><?php echo_("Genre"); ?></label><br />
 			<input name="genre" type="text" id="genre"/>
 		</p>
 		<p>
-			<label for="parentes">Parentés</label><br />
+			<label for="parentes"><?php echo_("Parentés"); ?></label><br />
 			<input name="parentes" type="text" id="parentes"/>
 		</p>
 		<p>
-			<label for="site">Site web</label><br />
+			<label for="site"><?php echo_("Site web"); ?></label><br />
 			<input name="site" type="text" id="site"/>
 		</p>
 		<p>
-			<input type="submit" value="S'inscrire" class="button" />
+			<input type="submit" value=<?php echo_("S'inscrire");?> class="button" />
 		</p>
 	</form>
 	<p>
-		<?php echo anchor('sessions/connexion','Vous possédez déjà un compte ?') ?>
+		<?php echo anchor('sessions/connexion',echo_("Vous possédez déjà un compte ?")) ?>
 	</p>
 </div>

@@ -1,6 +1,5 @@
 <?php
 
-require "localization.php";
 
   class Pages extends CI_Controller {
     public function display($page = 'home'){

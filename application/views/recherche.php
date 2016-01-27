@@ -29,14 +29,14 @@
 	);
 ?>
 
-<h1><?php echo_("Rechercher une salle"); ?></h1>
+<h1><?php echo gettext("Rechercher une salle"); ?></h1>
 <form method="post" action="resultat" enctype="multipart/form-data">
 	<p>
-		<label for="nom"> <?php echo_("Nom de la salle");?></label><br />
+		<label for="nom"> <?php echo gettext("Nom de la salle");?></label><br />
 		<input name="nom" type="text" />
 	</p>
 	<p>			
-		<label for="date"><?php echo_("Date");?></label><br />
+		<label for="date"><?php echo gettext("Date");?></label><br />
 		<?php foreach ($journees as $journee): ?>
 		<div class="checkbox">
 			<input type="checkbox" name="date" value="<?php echo $journee['jour'] ?>" ><?php $date = new DateTime($journee['jour']); echo $date->format('l j F') ?><br />
@@ -44,7 +44,7 @@
 		<?php endforeach; ?>
 	</p>
 	<p>			
-		<label for="creneau"><?php echo_("Créneau horaire");?></label><br />
+		<label for="creneau"><?php echo gettext("Créneau horaire");?></label><br />
 		<?php echo_("de"); ?>
 		<select name="creneau" class="lselect">
 		<?php foreach ($time as $hour): ?>
@@ -59,7 +59,7 @@
 		</select> 
 	</p>
 	<p>			
-		<label for="capacite"><?php echo_("Capacité de la salle")?></label><br />
+		<label for="capacite"><?php echo gettext("Capacité de la salle")?></label><br />
 		<select name="capacite">
 			<option value="1">&lt 100</option>
 			<option value="2">&gt 100 et &lt 200</option>
@@ -69,10 +69,10 @@
 		</select> 
 	</p>
 	<p>			
-		<label for="accessibilite"><?php echo_("Accessible aux personnes à mobilité réduite");?></label><br />
+		<label for="accessibilite"><?php echo gettext("Accessible aux personnes à mobilité réduite");?></label><br />
 		<div class="checkbox">
-			<input type="checkbox" name="accessibilite" value="ok"> <?php echo_("Oui");?>
+			<input type="checkbox" name="accessibilite" value="ok"> <?php echo gettext("Oui");?>
 		</div>
 	</p>
-	<p><input type="submit" value=<?php echo_("Rechercher");?>/></p>
+	<p><input type="submit" value=<?php echo gettext("Rechercher");?>/></p>
 </form>

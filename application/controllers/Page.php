@@ -1,4 +1,7 @@
 <?php
+
+require "localization.php";
+
   class Pages extends CI_Controller {
     public function display($page = 'home'){
       if( !file_exists('application/views/'.$page.'.php')){

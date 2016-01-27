@@ -1,6 +1,6 @@
 <nav>
 	<ul>
-		<li><a><?php echo "Inscriptions";?></a></li>
-		<li><?php echo anchor('atm/traiter_reservation', 'Réservations'); ?></li>
+		<li><a><?php echo_("Inscriptions");?></a></li>
+		<li><?php echo anchor('atm/traiter_reservation',echo_("Réservations")); ?></li>
 	</ul>
 </nav>

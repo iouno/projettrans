@@ -1,3 +1,4 @@
+<?php require "..\..\localization.php"; ?>
 <nav>
 	<ul>
 		<li><a><?php echo_("Inscriptions");?></a></li>

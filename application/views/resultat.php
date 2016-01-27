@@ -1,4 +1,4 @@
-<?php require ('../../localization.php'); ?>
+<?php require "localization.php"; ?>
 <h1><?php echo_("Résultat de la recherche");?></h1>
 
 <?php if (empty($lesSalles)) : ?>

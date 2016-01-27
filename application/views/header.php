@@ -22,7 +22,7 @@
 					<a href="http://lestrans.com/"><img id="logo_trans" src="<?php echo base_url(); ?>/assets/img/transmusicales.png" alt="Logo du festival Trans Musicales" /></a>
 					
 					<div id="title">
-						<?php echo anchor('sessions/accueil',echo gettext("Les Salles")) ?>
+						<?php echo anchor('sessions/accueil',gettext("Les Salles")) ?>
 					</div>
 
 					<div id="action">

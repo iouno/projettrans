@@ -1,4 +1,4 @@
-<?php require ('../../localization.php'); ?>
+<?php require "localization.php"; ?>
 
 <nav>
 	<ul>

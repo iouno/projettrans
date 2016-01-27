@@ -1,16 +1,16 @@
 <?php require "localization.php"; ?>
-<h1> <?php echo_("Traiter une demande de réservation"); ?></h1>
+<h1> <?php echo gettext("Traiter une demande de réservation"); ?></h1>
 <?php if (empty($reservations)) : ?>
-	<p><?php echo_("Aucune demande de réservation ne requiert votre attention."); ?></p>
+	<p><?php echo gettext("Aucune demande de réservation ne requiert votre attention."); ?></p>
 <?php else : ?>
 <table>
 	<tr>
-		<th><?php echo_("Date de réservation");?></th>
-		<th><?php echo_("Artistes");?></th>
-		<th><?php echo_("Pays"); ?></th>
-		<th><?php echo_("Salle");?></th>
-		<th><?php echo_("Jour"); ?></th>
-		<th><?php echo_("Heure"); ?></th>
+		<th><?php echo gettext("Date de réservation");?></th>
+		<th><?php echo gettext("Artistes");?></th>
+		<th><?php echo gettext("Pays"); ?></th>
+		<th><?php echo gettext("Salle");?></th>
+		<th><?php echo gettext("Jour"); ?></th>
+		<th><?php echo gettext("Heure"); ?></th>
 	</tr>
 <?php foreach ($reservations as $reserv) : ?>
 	<tr>

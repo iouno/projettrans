@@ -1,3 +1,5 @@
+<?php require "..\..\localization.php"; ?>
+
 <h1>Connexion</h1>
 <form method="post" action="connexion">
 	<p class="erreur"><?php echo_($msg_erreur); ?></p>

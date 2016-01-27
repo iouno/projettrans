@@ -1,3 +1,5 @@
+<?php require "..\..\localization.php"; ?>
+
 <nav>
 	<ul>
 		<li><?php echo anchor('artiste/recherche', echo_("Rechercher")) ?></li>

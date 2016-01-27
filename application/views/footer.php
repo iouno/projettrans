@@ -1,3 +1,5 @@
+<?php require "..\..\localization.php"; ?>
+
 	    	</section>
 			<footer>
 				<p> <?php echo_("Interface de réservation de salle de concert pour les Artistes des TransMusicales"); ?></p>

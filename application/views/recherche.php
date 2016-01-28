@@ -44,14 +44,14 @@
 		<?php endforeach; ?>
 	</p>
 	<p>			
-		<label for="creneau"><?php echo gettext("Créneau horaire");?></label><br />
+		<label for="creneau"><?php echo gettext("Creneau horaire");?></label><br />
 		<?php echo_("de"); ?>
 		<select name="creneau" class="lselect">
 		<?php foreach ($time as $hour): ?>
 			<option value="<?php echo $hour ?>"><?php echo $hour ?></option>
 		<?php endforeach; ?>
 		</select> 
-		<?php echo_("à"); ?>
+		<?php echo_("&#224;"); ?>
 		<select name="creneau" class="lselect">
 		<?php foreach ($time as $hour): ?>
 			<option value="<?php echo $hour ?>"><?php echo $hour ?></option>
@@ -59,7 +59,7 @@
 		</select> 
 	</p>
 	<p>			
-		<label for="capacite"><?php echo gettext("Capacité de la salle")?></label><br />
+		<label for="capacite"><?php echo gettext("Capacite de la salle")?></label><br />
 		<select name="capacite">
 			<option value="1">&lt 100</option>
 			<option value="2">&gt 100 et &lt 200</option>
@@ -69,7 +69,7 @@
 		</select> 
 	</p>
 	<p>			
-		<label for="accessibilite"><?php echo gettext("Accessible aux personnes à mobilité réduite");?></label><br />
+		<label for="accessibilite"><?php echo gettext("Accessible aux personnes a mobilite reduite");?></label><br />
 		<div class="checkbox">
 			<input type="checkbox" name="accessibilite" value="ok"> <?php echo gettext("Oui");?>
 		</div>

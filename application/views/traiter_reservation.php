@@ -1,11 +1,11 @@
 <?php require "localization.php"; ?>
-<h1> <?php echo gettext("Traiter une demande de réservation"); ?></h1>
+<h1> <?php echo gettext("Traiter une demande de reservation"); ?></h1>
 <?php if (empty($reservations)) : ?>
-	<p><?php echo gettext("Aucune demande de réservation ne requiert votre attention."); ?></p>
+	<p><?php echo gettext("Aucune demande de reservation ne requiert votre attention."); ?></p>
 <?php else : ?>
 <table>
 	<tr>
-		<th><?php echo gettext("Date de réservation");?></th>
+		<th><?php echo gettext("Date de reservation");?></th>
 		<th><?php echo gettext("Artistes");?></th>
 		<th><?php echo gettext("Pays"); ?></th>
 		<th><?php echo gettext("Salle");?></th>

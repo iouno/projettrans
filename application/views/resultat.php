@@ -1,8 +1,8 @@
 <?php require "localization.php"; ?>
-<h1><?php echo gettext("Résultat de la recherche");?></h1>
+<h1><?php echo gettext("Resultat de la recherche");?></h1>
 
 <?php if (empty($lesSalles)) : ?>
-	<p><?php echo gettext("Désolé, votre recherche n'a donné aucun résultat"); ?></p>
+	<p><?php echo gettext("Desole, votre recherche n'a donne; aucun resultat"); ?></p>
 <?php else : ?>
 	<form method="post" action="reserver" id="lesSalles">
 	<?php foreach ($lesSalles as $key => $value) : ?>
@@ -22,7 +22,7 @@
 				</select>
 			</p>
 
-			<input type="submit" value=<?php echo gettext("Réserver");?> name="<?php echo $value['idsalle']?>" />
+			<input type="submit" value=<?php echo gettext("Reserver");?> name="<?php echo $value['idsalle']?>" />
 		</div>
 
 	<?php endforeach; ?>

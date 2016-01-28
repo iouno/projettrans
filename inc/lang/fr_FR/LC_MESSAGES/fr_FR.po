@@ -1,0 +1,681 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fr_FR\n"
+"POT-Creation-Date: 2016-01-28 21:31+0100\n"
+"PO-Revision-Date: 2016-01-28 21:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ../../../../application\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: gettext\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: views/connected.php:1
+msgid "Vous etes connecte."
+msgstr "Vous êtes connecté."
+
+#: views/connexion.php:7
+msgid "Identifiant"
+msgstr "Identifiant"
+
+#: views/connexion.php:11
+msgid "Mot de passe"
+msgstr "Mot de passe"
+
+#: views/connexion.php:18
+msgid "Pas encore inscrit ?"
+msgstr "Pas encore inscrit ?"
+
+#: views/footer.php:5
+msgid ""
+"Interface de reservation de salle de concert pour les Artistes des "
+"TransMusicales"
+msgstr ""
+"Interface de réservation de salle de concert pour les Artistes des "
+"TransMusicales"
+
+#: views/header.php:25
+msgid "Les Salles"
+msgstr "Les Salles"
+
+#: views/home.php:4 views/home.php:10 views/home.php:18
+msgid "Inscrivez-vous"
+msgstr "Inscrivez-vous"
+
+#: views/home.php:5
+msgid "Faire une recherche"
+msgstr "Faire une recherche"
+
+#: views/home.php:8
+msgid "Vous etes deconnecte."
+msgstr "Vous êtes déconnecté."
+
+#: views/home.php:13
+msgid "Reserver vos salles maintenant"
+msgstr "Réserver vos salles maintenant"
+
+#: views/home.php:15
+msgid ""
+"Trouver les scenes qui repondent au mieux a vos criteres et les reserver ? "
+"Rien de plus facile ! Artiste ou groupe des Trans Musicales, inscrivez-vous "
+"et choisissez !"
+msgstr ""
+"Trouver les scènes qui répondent au mieux à vos critères et les réserver ? "
+"Rien de plus facile ! Artiste ou groupe des Trans Musicales, inscrivez-vous "
+"et choisissez !"
+
+#: views/nav_artiste.php:5 views/recherche.php:77
+msgid "Rechercher"
+msgstr "Rechercher"
+
+#: views/nav_artiste.php:6
+msgid "Voir ses reservations"
+msgstr "Voir ses réservations"
+
+#: views/nav_artiste.php:7
+msgid "Modifier son profil"
+msgstr "Modifier son profil"
+
+#: views/nav_atm.php:4
+msgid "Inscriptions"
+msgstr "Inscriptions"
+
+#: views/recherche.php:32
+msgid "Rechercher une salle"
+msgstr "Rechercher une salle"
+
+#: views/recherche.php:35
+msgid "Nom de la salle"
+msgstr "Nom de la salle"
+
+#: views/recherche.php:39
+msgid "Date"
+msgstr "Date"
+
+#: views/recherche.php:47
+msgid "Creneau horaire"
+msgstr "Créneau horaire"
+
+#: views/recherche.php:62
+msgid "Capacite de la salle"
+msgstr "Capacité de la salle"
+
+#: views/recherche.php:72
+msgid "Accessible aux personnes a mobilite reduite"
+msgstr "Accessible aux personnes à mobilité réduite"
+
+#: views/recherche.php:74
+msgid "Oui"
+msgstr "Oui"
+
+#: views/register.php:6
+msgid "Veuillez renseigner tous les champs afin de valider votre inscription"
+msgstr "Veuillez renseigner tous les champs afin de valider votre inscription"
+
+#: views/register.php:8
+msgid "Nom"
+msgstr "Nom"
+
+#: views/register.php:15
+msgid "vous recevrez vos identifiants de connexion avec cet e-mail"
+msgstr "vous recevrez vos identifiants de connexion avec cet e-mail"
+
+#: views/register.php:18 views/traiter_reservation.php:10
+msgid "Pays"
+msgstr "Pays"
+
+#: views/register.php:20
+msgid "Afrique"
+msgstr "Afrique"
+
+#: views/register.php:21
+msgid "Afrique Du Sud"
+msgstr "Afrique Du Sud"
+
+#: views/register.php:22
+msgid "Algerie"
+msgstr ""
+
+#: views/register.php:28
+msgid "Cameroun"
+msgstr "Cameroun"
+
+#: views/register.php:29
+msgid "Cap-Vert"
+msgstr "Cap-Vert"
+
+#: views/register.php:30
+msgid "Republique Centre-Africaine"
+msgstr ""
+
+#: views/register.php:31
+msgid "Comores"
+msgstr "Comores"
+
+#: views/register.php:32
+msgid "Republique Democratique Du Congo"
+msgstr ""
+
+#: views/register.php:34
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: views/register.php:36
+msgid "Egypte"
+msgstr ""
+
+#: views/register.php:37
+msgid "Ethiopie"
+msgstr ""
+
+#: views/register.php:38
+msgid "Erythree"
+msgstr ""
+
+#: views/register.php:40
+msgid "Gambie"
+msgstr "Gambie"
+
+#: views/register.php:42
+msgid "Guinee"
+msgstr ""
+
+#: views/register.php:43
+msgid "Guinee-Bisseau"
+msgstr ""
+
+#: views/register.php:44
+msgid "Guinee Equatoriale"
+msgstr ""
+
+#: views/register.php:48
+msgid "Libye"
+msgstr "Libye"
+
+#: views/register.php:54
+msgid "Mauritanie"
+msgstr "Mauritanie"
+
+#: views/register.php:56
+msgid "Namibie"
+msgstr "Namibie"
+
+#: views/register.php:59
+msgid "Ouganda"
+msgstr "Ouganda"
+
+#: views/register.php:61
+msgid "Sao Tome-et-Principe"
+msgstr ""
+
+#: views/register.php:65
+msgid "Somalie"
+msgstr "Somalie"
+
+#: views/register.php:66
+msgid "Soudan"
+msgstr "Soudan"
+
+#: views/register.php:68
+msgid "Tanzanie"
+msgstr "Tanzanie"
+
+#: views/register.php:69
+msgid "Tchad"
+msgstr "Tchad"
+
+#: views/register.php:71
+msgid "Tunisie"
+msgstr "Tunisie"
+
+#: views/register.php:72
+msgid "Zambie"
+msgstr "Zambie"
+
+#: views/register.php:75
+msgid "Amerique"
+msgstr ""
+
+#: views/register.php:76
+msgid "Antigua-et-Barbuda"
+msgstr "Antigua-et-Barbuda"
+
+#: views/register.php:77
+msgid "Argentine"
+msgstr "Argentine"
+
+#: views/register.php:79
+msgid "Barbade"
+msgstr "Barbade"
+
+#: views/register.php:81
+msgid "Bolivie"
+msgstr "Bolivie"
+
+#: views/register.php:82
+msgid "Bresil"
+msgstr ""
+
+#: views/register.php:84
+msgid "Chili"
+msgstr "Chili"
+
+#: views/register.php:85
+msgid "Colombie"
+msgstr "Colombie"
+
+#: views/register.php:88
+msgid "Republique Dominicaine"
+msgstr ""
+
+#: views/register.php:89
+msgid "Dominique"
+msgstr "Dominique"
+
+#: views/register.php:90
+msgid "Equateur"
+msgstr ""
+
+#: views/register.php:91
+msgid "Etats-Unis"
+msgstr ""
+
+#: views/register.php:92
+msgid "Grenade"
+msgstr "Grenade"
+
+#: views/register.php:97
+msgid "Jamaique"
+msgstr ""
+
+#: views/register.php:98
+msgid "Mexique"
+msgstr ""
+
+#: views/register.php:102
+msgid "Perou"
+msgstr ""
+
+#: views/register.php:103
+msgid "Saint-Christophe-et-Nieves"
+msgstr ""
+
+#: views/register.php:104
+msgid "Sainte-Lucie"
+msgstr "Sainte-Lucie"
+
+#: views/register.php:105
+msgid "Saint-Vincent-et-les-Grenadines"
+msgstr "Saint-Vincent-et-les-Grenadines"
+
+#: views/register.php:108
+msgid "Trinite-et-Tobago"
+msgstr ""
+
+#: views/register.php:112
+msgid "Asie"
+msgstr "Asie"
+
+#: views/register.php:114
+msgid "Arabie Saoudite"
+msgstr "Arabie Saoudite"
+
+#: views/register.php:115
+msgid "Armenie"
+msgstr ""
+
+#: views/register.php:116
+msgid "Azerbaidjan"
+msgstr "Azerbaidjan"
+
+#: views/register.php:117
+msgid "Bahrein"
+msgstr "Bahrein"
+
+#: views/register.php:119
+msgid "Bhoutan"
+msgstr "Bhoutan"
+
+#: views/register.php:120
+msgid "Birmanie"
+msgstr "Birmanie"
+
+#: views/register.php:122
+msgid "Cambodge"
+msgstr "Cambodge"
+
+#: views/register.php:123
+msgid "Chine"
+msgstr "Chine"
+
+#: views/register.php:124
+msgid "Coree Du Sud"
+msgstr ""
+
+#: views/register.php:125
+msgid "Coree Du Nord"
+msgstr ""
+
+#: views/register.php:126
+msgid "Emirats Arabe Unis"
+msgstr ""
+
+#: views/register.php:127
+msgid "Georgie"
+msgstr ""
+
+#: views/register.php:128
+msgid "Inde"
+msgstr "Inde"
+
+#: views/register.php:129
+msgid "Indonesie"
+msgstr ""
+
+#: views/register.php:133
+msgid "Japon"
+msgstr "Japon"
+
+#: views/register.php:134
+msgid "Jordanie"
+msgstr "Jordanie"
+
+#: views/register.php:137
+msgid "Koweit"
+msgstr ""
+
+#: views/register.php:139
+msgid "Liban"
+msgstr "Liban"
+
+#: views/register.php:140
+msgid "Malaisie"
+msgstr "Malaisie"
+
+#: views/register.php:142
+msgid "Mongolie"
+msgstr "Mongolie"
+
+#: views/register.php:145
+msgid "Ouzbekistan"
+msgstr "Ouzbekistan"
+
+#: views/register.php:149
+msgid "Singapour"
+msgstr "Singapour"
+
+#: views/register.php:151
+msgid "Syrie"
+msgstr "Syrie"
+
+#: views/register.php:152
+msgid "Tadjikistan"
+msgstr ""
+
+#: views/register.php:154
+msgid "Thailande"
+msgstr ""
+
+#: views/register.php:155
+msgid "Timor oriental"
+msgstr ""
+
+#: views/register.php:157
+msgid "Turquie"
+msgstr ""
+
+#: views/register.php:161
+msgid "Europe"
+msgstr ""
+
+#: views/register.php:162
+msgid "Allemagne"
+msgstr ""
+
+#: views/register.php:163
+msgid "Albanie"
+msgstr ""
+
+#: views/register.php:165
+msgid "Autriche"
+msgstr ""
+
+#: views/register.php:166
+msgid "Bielorussie"
+msgstr ""
+
+#: views/register.php:167
+msgid "Belgique"
+msgstr ""
+
+#: views/register.php:168
+msgid "Bosnie-Herzegovine"
+msgstr ""
+
+#: views/register.php:169
+msgid "Bulgarie"
+msgstr ""
+
+#: views/register.php:170
+msgid "Croatie"
+msgstr ""
+
+#: views/register.php:171
+msgid "Danemark"
+msgstr ""
+
+#: views/register.php:172
+msgid "Espagne"
+msgstr ""
+
+#: views/register.php:173
+msgid "Estonie"
+msgstr ""
+
+#: views/register.php:174
+msgid "Finlande"
+msgstr ""
+
+#: views/register.php:176
+msgid "Grece"
+msgstr ""
+
+#: views/register.php:177
+msgid "Hongrie"
+msgstr ""
+
+#: views/register.php:178
+msgid "Irlande"
+msgstr ""
+
+#: views/register.php:179
+msgid "Islande"
+msgstr ""
+
+#: views/register.php:180
+msgid "Italie"
+msgstr ""
+
+#: views/register.php:181
+msgid "Lettonie"
+msgstr ""
+
+#: views/register.php:183
+msgid "Lituanie"
+msgstr ""
+
+#: views/register.php:185
+msgid "Ex-Republique Yougoslave de Macedoine"
+msgstr ""
+
+#: views/register.php:186
+msgid "Malte"
+msgstr ""
+
+#: views/register.php:187
+msgid "Moldavie"
+msgstr ""
+
+#: views/register.php:189
+msgid "Norvege"
+msgstr ""
+
+#: views/register.php:190
+msgid "Pays-Bas"
+msgstr ""
+
+#: views/register.php:191
+msgid "Pologne"
+msgstr ""
+
+#: views/register.php:193
+msgid "Roumanie"
+msgstr ""
+
+#: views/register.php:194
+msgid "Royaume-Uni"
+msgstr ""
+
+#: views/register.php:195
+msgid "Russie"
+msgstr ""
+
+#: views/register.php:196
+msgid "Saint-Marin"
+msgstr ""
+
+#: views/register.php:197
+msgid "Serbie-et-Montenegro"
+msgstr ""
+
+#: views/register.php:198
+msgid "Slovaquie"
+msgstr ""
+
+#: views/register.php:199
+msgid "Slovenie"
+msgstr ""
+
+#: views/register.php:200
+msgid "Suede"
+msgstr ""
+
+#: views/register.php:201
+msgid "Suisse"
+msgstr ""
+
+#: views/register.php:202
+msgid "Republique Tcheque"
+msgstr ""
+
+#: views/register.php:206
+msgid "Oceanie"
+msgstr ""
+
+#: views/register.php:207
+msgid "Australie"
+msgstr ""
+
+#: views/register.php:208
+msgid "Fidji"
+msgstr ""
+
+#: views/register.php:211
+msgid "Micronesie"
+msgstr ""
+
+#: views/register.php:213
+msgid "Nouvelle-Zelande"
+msgstr ""
+
+#: views/register.php:215
+msgid "Papouasie-Nouvelle-Guinee"
+msgstr ""
+
+#: views/register.php:225
+msgid "Date de debut"
+msgstr ""
+
+#: views/register.php:233
+msgid "Genre"
+msgstr ""
+
+#: views/register.php:237
+msgid "Parentes"
+msgstr ""
+
+#: views/register.php:241
+msgid "Site web"
+msgstr ""
+
+#: views/register.php:245
+msgid "S'inscrire"
+msgstr ""
+
+#: views/register.php:249
+msgid "Vous possedez deja un compte ?"
+msgstr ""
+
+#: views/registerOk.php:2
+msgid "Inscription"
+msgstr ""
+
+#: views/registerOk.php:4
+msgid ""
+"Votre demande d'inscription a ete prise en compte. Un identifiant et un mot "
+"de passe vous serons envoyes par courriel lorsque votre inscription sera "
+"validee."
+msgstr ""
+
+#: views/reservation.php:5
+msgid "Votre demande de reservation a ete prise en compte."
+msgstr ""
+
+#: views/resultat.php:2
+msgid "Resultat de la recherche"
+msgstr ""
+
+#: views/resultat.php:5
+msgid "Desole, votre recherche n'a donne aucun resultat"
+msgstr ""
+
+#: views/resultat.php:25
+msgid "Reserver"
+msgstr ""
+
+#: views/resultat.php:33
+msgid "Nouvelle recherche"
+msgstr ""
+
+#: views/traiter_reservation.php:2
+msgid "Traiter une demande de reservation"
+msgstr ""
+
+#: views/traiter_reservation.php:4
+msgid "Aucune demande de reservation ne requiert votre attention."
+msgstr ""
+
+#: views/traiter_reservation.php:8
+msgid "Date de reservation"
+msgstr ""
+
+#: views/traiter_reservation.php:9
+msgid "Artistes"
+msgstr ""
+
+#: views/traiter_reservation.php:11
+msgid "Salle"
+msgstr ""
+
+#: views/traiter_reservation.php:12
+msgid "Jour"
+msgstr ""
+
+#: views/traiter_reservation.php:13
+msgid "Heure"
+msgstr ""

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: en_US\n"
-"POT-Creation-Date: 2016-01-28 13:36+0100\n"
-"PO-Revision-Date: 2016-01-28 13:53+0100\n"
+"POT-Creation-Date: 2016-01-28 19:32+0100\n"
+"PO-Revision-Date: 2016-01-28 20:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -18,13 +18,9 @@ msgstr ""
 msgid "Vous etes connecte."
 msgstr "You are connected."
 
-#: application/views/connected.php:2
-msgid "Redirection..."
-msgstr "Redirection..."
-
 #: application/views/connexion.php:7
 msgid "Identifiant"
-msgstr "Login"
+msgstr "Username"
 
 #: application/views/connexion.php:11
 msgid "Mot de passe"
@@ -32,15 +28,14 @@ msgstr "Password"
 
 #: application/views/connexion.php:18
 msgid "Pas encore inscrit ?"
-msgstr "Not still registered ?"
+msgstr "Not yet registered ?"
 
 #: application/views/footer.php:5
 msgid ""
 "Interface de reservation de salle de concert pour les Artistes des "
 "TransMusicales"
 msgstr ""
-"Interface of reservation of concert hall for the Artists of the "
-"TransMusicales"
+"Browser of reservation of concert hall for the Artists of the TransMusicales"
 
 #: application/views/header.php:25
 msgid "Les Salles"
@@ -53,7 +48,7 @@ msgstr "Join"
 
 #: application/views/home.php:5
 msgid "Faire une recherche"
-msgstr "Make a search"
+msgstr "Do a search"
 
 #: application/views/home.php:8
 msgid "Vous etes deconnecte."
@@ -61,7 +56,7 @@ msgstr "You are disconnected."
 
 #: application/views/home.php:13
 msgid "Reserver vos salles maintenant"
-msgstr "Reserver vos salles maintenant"
+msgstr "Reserve your rooms now"
 
 #: application/views/home.php:15
 msgid ""
@@ -69,8 +64,8 @@ msgid ""
 "Rien de plus facile ! Artiste ou groupe des Trans Musicales, inscrivez-vous "
 "et choisissez !"
 msgstr ""
-"Find the scenes which answer at best has your criteria and reserver? "
-"Nothing more easy! Artist or group of Trans Musicales, join and choose!"
+"Find the scenes which answer at best has your criteria and reserver? Nothing "
+"more easy! Artist or group of Trans Musicales, join and choose!"
 
 #: application/views/nav_artiste.php:5 application/views/recherche.php:77
 msgid "Rechercher"
@@ -78,19 +73,15 @@ msgstr "Research"
 
 #: application/views/nav_artiste.php:6
 msgid "Voir ses reservations"
-msgstr "See his reservations"
+msgstr "See reservation"
 
 #: application/views/nav_artiste.php:7
 msgid "Modifier son profil"
-msgstr "Modify his profil"
+msgstr "Edit profil"
 
 #: application/views/nav_atm.php:4
 msgid "Inscriptions"
-msgstr "Registrations"
-
-#: application/views/nav_atm.php:5
-msgid "Reservations"
-msgstr "Reservations"
+msgstr "Registration"
 
 #: application/views/recherche.php:32
 msgid "Rechercher une salle"
@@ -102,7 +93,7 @@ msgstr "Name of the room"
 
 #: application/views/recherche.php:39
 msgid "Date"
-msgstr "Date"
+msgstr "Day"
 
 #: application/views/recherche.php:47
 msgid "Creneau horaire"
@@ -114,7 +105,7 @@ msgstr "Capacity of the room"
 
 #: application/views/recherche.php:72
 msgid "Accessible aux personnes a mobilite reduite"
-msgstr "Accessible to the people has mobility impaired"
+msgstr "Full disabled access "
 
 #: application/views/recherche.php:74
 msgid "Oui"
@@ -128,12 +119,8 @@ msgstr "Please inform all the fields to validate your registration"
 msgid "Nom"
 msgstr "Name"
 
-#: application/views/register.php:13
-msgid "E-mail"
-msgstr "E-mail"
-
 #: application/views/register.php:15
-msgid "vous ressevrez vos identifiants de connexion avec cet e-mail"
+msgid "vous recevrez vos identifiants de connexion avec cet e-mail"
 msgstr "You will receive your identifiers of connection with this e-mail"
 
 #: application/views/register.php:18
@@ -147,31 +134,11 @@ msgstr "Africa"
 
 #: application/views/register.php:21
 msgid "Afrique Du Sud"
-msgstr "South of Africa"
+msgstr "South Africa"
 
 #: application/views/register.php:22
-msgid "Alg&#233;rie"
+msgid "Algerie"
 msgstr "Algeria"
-
-#: application/views/register.php:23
-msgid "Angola"
-msgstr "Angola"
-
-#: application/views/register.php:24
-msgid "B&#233;nin"
-msgstr "Benin"
-
-#: application/views/register.php:25
-msgid "Botswana"
-msgstr "Botswana"
-
-#: application/views/register.php:26
-msgid "Burkina"
-msgstr "Burkina"
-
-#: application/views/register.php:27
-msgid "Burundi"
-msgstr "Burundi"
 
 #: application/views/register.php:28
 msgid "Cameroun"
@@ -182,7 +149,7 @@ msgid "Cap-Vert"
 msgstr "Cape Verde"
 
 #: application/views/register.php:30
-msgid "R&#233;publique Centre-Africaine"
+msgid "Republique Centre-Africaine"
 msgstr "Republic Center-Africa"
 
 #: application/views/register.php:31
@@ -190,136 +157,60 @@ msgid "Comores"
 msgstr "Comoros"
 
 #: application/views/register.php:32
-msgid "R&#233;publique D&#233;mocratique Du Congo"
+msgid "Republique Democratique Du Congo"
 msgstr "Democratic Republic of the Congo"
 
-#: application/views/register.php:33
-msgid "Congo"
-msgstr "Congo"
-
 #: application/views/register.php:34
-msgid "C&#244;te d'Ivoire"
+msgid "Cote d'Ivoire"
 msgstr "Ivory Coast"
 
-#: application/views/register.php:35
-msgid "Djibouti"
-msgstr "Djibouti"
-
 #: application/views/register.php:36
-msgid "&#201;gypte"
+msgid "Egypte"
 msgstr "Egypt"
 
 #: application/views/register.php:37
-msgid "&#201;thiopie"
+msgid "Ethiopie"
 msgstr "Ethiopia"
 
 #: application/views/register.php:38
-msgid "&#201;rythr&#233;e"
+msgid "Erythree"
 msgstr "Eritrea"
-
-#: application/views/register.php:39
-msgid "Gabon"
-msgstr "Gabon"
 
 #: application/views/register.php:40
 msgid "Gambie"
 msgstr "Gambia"
 
-#: application/views/register.php:41
-msgid "Ghana"
-msgstr "Ghana"
-
 #: application/views/register.php:42
-msgid "Guin&#233;e"
+msgid "Guinee"
 msgstr "Guinea"
 
 #: application/views/register.php:43
-msgid "Guin&#233;e-Bisseau"
+msgid "Guinee-Bisseau"
 msgstr "Guinea-Bissau"
 
 #: application/views/register.php:44
-msgid "Guin&#233;e &#201;quatoriale"
+msgid "Guinee Equatoriale"
 msgstr "Equatorial Guinea"
-
-#: application/views/register.php:45
-msgid "Kenya"
-msgstr "Kenya"
-
-#: application/views/register.php:46
-msgid "Lesotho"
-msgstr "Lesotho"
-
-#: application/views/register.php:47
-msgid "Liberia"
-msgstr "Liberia"
 
 #: application/views/register.php:48
 msgid "Libye"
-msgstr "Libia"
-
-#: application/views/register.php:49
-msgid "Madagascar"
-msgstr "Madagascar"
-
-#: application/views/register.php:50
-msgid "Malawi"
-msgstr "Malawi"
-
-#: application/views/register.php:51
-msgid "Mali"
-msgstr "Mali"
-
-#: application/views/register.php:52
-msgid "Maroc"
-msgstr "Morocco"
-
-#: application/views/register.php:53
-msgid "Maurice"
-msgstr "Mauritius"
+msgstr "Libya"
 
 #: application/views/register.php:54
 msgid "Mauritanie"
 msgstr "Mauritania"
 
-#: application/views/register.php:55
-msgid "Mozambique"
-msgstr "Mozambique"
-
 #: application/views/register.php:56
 msgid "Namibie"
 msgstr "Namibia"
 
-#: application/views/register.php:57
-msgid "Niger"
-msgstr "Niger"
-
-#: application/views/register.php:58
-msgid "Nigeria"
-msgstr "Nigeria"
-
 #: application/views/register.php:59
 msgid "Ouganda"
-msgstr "Ouganda"
-
-#: application/views/register.php:60
-msgid "Rwanda"
-msgstr "Rwanda"
+msgstr "Uganda"
 
 #: application/views/register.php:61
-msgid "Sao Tom&#233;-et-Principe"
+msgid "Sao Tome-et-Principe"
 msgstr "Sao Tome and Principe"
-
-#: application/views/register.php:62
-msgid "S&#233;n&#233;gal"
-msgstr "Senegal"
-
-#: application/views/register.php:63
-msgid "Seychelles"
-msgstr "Seychelles"
-
-#: application/views/register.php:64
-msgid "Sierra"
-msgstr "Sierra"
 
 #: application/views/register.php:65
 msgid "Somalie"
@@ -329,10 +220,6 @@ msgstr "Somalia"
 msgid "Soudan"
 msgstr "Sudan"
 
-#: application/views/register.php:67
-msgid "Swaziland"
-msgstr "Swaziland"
-
 #: application/views/register.php:68
 msgid "Tanzanie"
 msgstr "Tanzania"
@@ -340,10 +227,6 @@ msgstr "Tanzania"
 #: application/views/register.php:69
 msgid "Tchad"
 msgstr "Chad"
-
-#: application/views/register.php:70
-msgid "Togo"
-msgstr "Togo"
 
 #: application/views/register.php:71
 msgid "Tunisie"
@@ -353,12 +236,8 @@ msgstr "Tunisia"
 msgid "Zambie"
 msgstr "Zambia"
 
-#: application/views/register.php:73
-msgid "Zimbabwe"
-msgstr "Zimbabwe"
-
 #: application/views/register.php:75
-msgid "Am&#233;rique"
+msgid "Amerique"
 msgstr "America"
 
 #: application/views/register.php:76
@@ -369,29 +248,17 @@ msgstr "Antigua and Barbuda"
 msgid "Argentine"
 msgstr "Argentina"
 
-#: application/views/register.php:78
-msgid "Bahamas"
-msgstr "The Bahamas"
-
 #: application/views/register.php:79
 msgid "Barbade"
 msgstr "Barbados"
-
-#: application/views/register.php:80
-msgid "Belize"
-msgstr "Belize"
 
 #: application/views/register.php:81
 msgid "Bolivie"
 msgstr "Bolivia"
 
 #: application/views/register.php:82
-msgid "Br&#233;sil"
+msgid "Bresil"
 msgstr "Brazil"
-
-#: application/views/register.php:83
-msgid "Canada"
-msgstr "Canada"
 
 #: application/views/register.php:84
 msgid "Chili"
@@ -401,168 +268,104 @@ msgstr "Chile"
 msgid "Colombie"
 msgstr "Colombia"
 
-#: application/views/register.php:86
-msgid "Costa Rica"
-msgstr "Costa Rica"
-
-#: application/views/register.php:87
-msgid "Cuba"
-msgstr "Cuba"
-
 #: application/views/register.php:88
-msgid "R&#233;publique Dominicaine"
+msgid "Republique Dominicaine"
 msgstr "Dominican Republic"
 
 #: application/views/register.php:89
 msgid "Dominique"
-msgstr "Dominica"
+msgstr "Dominic"
 
 #: application/views/register.php:90
-msgid "&#201;quateur"
-msgstr "Equatoria"
+msgid "Equateur"
+msgstr "Equator"
 
 #: application/views/register.php:91
-msgid "&#201;tats-Unis"
-msgstr "USA"
+msgid "Etats-Unis"
+msgstr "United Strates of America"
 
 #: application/views/register.php:92
 msgid "Grenade"
-msgstr "Granada"
-
-#: application/views/register.php:93
-msgid "Guatemala"
-msgstr "Guatemala"
-
-#: application/views/register.php:94
-msgid "Guyana"
-msgstr "Guyana"
-
-#: application/views/register.php:95
-msgid "Ha&#239;ti"
-msgstr "Haiti"
-
-#: application/views/register.php:96
-msgid "Honduras"
-msgstr "Honduras"
+msgstr "Grenada"
 
 #: application/views/register.php:97
-msgid "Jama&#239;que"
+msgid "Jamaique"
 msgstr "Jamaica"
 
 #: application/views/register.php:98
 msgid "Mexique"
 msgstr "Mexico"
 
-#: application/views/register.php:99
-msgid "Nicaragua"
-msgstr "Nicaragua"
-
-#: application/views/register.php:100
-msgid "Panama"
-msgstr "Panama"
-
-#: application/views/register.php:101
-msgid "Paraguay"
-msgstr "Paraguay"
-
 #: application/views/register.php:102
-msgid "P&#233;rou"
+msgid "Perou"
 msgstr "Peru"
 
 #: application/views/register.php:103
-msgid "Saint-Cristophe-et-Ni&#233;v&#232;s"
-msgstr "Saint-Cristophe-et-Niévès"
+msgid "Saint-Christophe-et-Nieves"
+msgstr "Saint Kitts and Nevis"
 
 #: application/views/register.php:104
 msgid "Sainte-Lucie"
-msgstr "Sainte-Lucia"
+msgstr "Saint Lucia"
 
 #: application/views/register.php:105
 msgid "Saint-Vincent-et-les-Grenadines"
 msgstr "Saint Vincent and the Grenadines"
 
-#: application/views/register.php:106
-msgid "Salvador"
-msgstr "Salvador"
-
-#: application/views/register.php:107
-msgid "Suriname"
-msgstr "Suriname"
-
 #: application/views/register.php:108
-msgid "Trinit&#233;-et-Tobago"
+msgid "Trinite-et-Tobago"
 msgstr "Trinidad and Tobago"
-
-#: application/views/register.php:109
-msgid "Uruguay"
-msgstr "Uruguay"
-
-#: application/views/register.php:110
-msgid "Venezuela"
-msgstr "Venezuela"
 
 #: application/views/register.php:112
 msgid "Asie"
 msgstr "Asia"
-
-#: application/views/register.php:113
-msgid "Afghanistan"
-msgstr "Afghanistan"
 
 #: application/views/register.php:114
 msgid "Arabie Saoudite"
 msgstr "Saudi Arabia"
 
 #: application/views/register.php:115
-msgid "Arm&#233;nie"
+msgid "Armenie"
 msgstr "Armenia"
 
 #: application/views/register.php:116
-msgid "Azerba&#239;djan"
-msgstr "Azerbaidjan"
+msgid "Azerbaidjan"
+msgstr "Azerbaijan"
 
 #: application/views/register.php:117
-msgid "Bahre&#239;n"
+msgid "Bahrein"
 msgstr "Bahrain"
-
-#: application/views/register.php:118
-msgid "Bangladesh"
-msgstr "Bangladesh"
 
 #: application/views/register.php:119
 msgid "Bhoutan"
-msgstr "Bhoutan"
+msgstr "Bhutan"
 
 #: application/views/register.php:120
 msgid "Birmanie"
-msgstr "Birmania"
-
-#: application/views/register.php:121
-msgid "Brun&#233;i"
-msgstr "Brunei"
+msgstr "Burma"
 
 #: application/views/register.php:122
 msgid "Cambodge"
-msgstr "Cambodge"
+msgstr "Cambodia"
 
 #: application/views/register.php:123
 msgid "Chine"
 msgstr "China"
 
 #: application/views/register.php:124
-msgid "Cor&#233;e Du Sud"
+msgid "Coree Du Sud"
 msgstr "South Korea"
 
 #: application/views/register.php:125
-msgid "Cor&#233;e Du Nord"
+msgid "Coree Du Nord"
 msgstr "North Korea"
 
 #: application/views/register.php:126
-msgid "&#201;mirats Arabe Unis"
-msgstr "Emirates Arab United"
+msgid "Emirats Arabe Unis"
+msgstr "United Arab Emirates"
 
 #: application/views/register.php:127
-msgid "G&#233;orgie"
+msgid "Georgie"
 msgstr "Georgia"
 
 #: application/views/register.php:128
@@ -570,20 +373,8 @@ msgid "Inde"
 msgstr "India"
 
 #: application/views/register.php:129
-msgid "Indon&#233;sie"
+msgid "Indonesie"
 msgstr "Indonesia"
-
-#: application/views/register.php:130
-msgid "Iraq"
-msgstr "Iraq"
-
-#: application/views/register.php:131
-msgid "Iran"
-msgstr "Iran"
-
-#: application/views/register.php:132
-msgid "Isra&#235;l"
-msgstr "Israel"
 
 #: application/views/register.php:133
 msgid "Japon"
@@ -593,69 +384,29 @@ msgstr "Japan"
 msgid "Jordanie"
 msgstr "Jordania"
 
-#: application/views/register.php:135
-msgid "Kazakhstan"
-msgstr "Kazakhstan"
-
-#: application/views/register.php:136
-msgid "Kirghistan"
-msgstr "Kirghistan"
-
 #: application/views/register.php:137
-msgid "Kowe&#239;t"
-msgstr "Kowei;t"
-
-#: application/views/register.php:138
-msgid "Laos"
-msgstr "Laos"
+msgid "Koweit"
+msgstr "Kuwait"
 
 #: application/views/register.php:139
 msgid "Liban"
-msgstr "Liban"
+msgstr "Lebanon"
 
 #: application/views/register.php:140
 msgid "Malaisie"
 msgstr "Malaisia"
 
-#: application/views/register.php:141
-msgid "Maldives"
-msgstr "The Maldive Islands"
-
 #: application/views/register.php:142
 msgid "Mongolie"
 msgstr "Mongolia"
 
-#: application/views/register.php:143
-msgid "N&#233;pal"
-msgstr "Nepal"
-
-#: application/views/register.php:144
-msgid "Oman"
-msgstr "Oman"
-
 #: application/views/register.php:145
-msgid "Ouzb&#233;kistan"
-msgstr "Ouzbekistan"
-
-#: application/views/register.php:146
-msgid "Pakistan"
-msgstr "Pakistan"
-
-#: application/views/register.php:147
-msgid "Philippines"
-msgstr "Philippines"
-
-#: application/views/register.php:148
-msgid "Qatar"
-msgstr "Qatar"
+msgid "Ouzbekistan"
+msgstr "Uzbekistan"
 
 #: application/views/register.php:149
 msgid "Singapour"
-msgstr "Singapour"
-
-#: application/views/register.php:150
-msgid "Sri Lanka"
-msgstr "Sri Lanka"
+msgstr "Singapore"
 
 #: application/views/register.php:151
 msgid "Syrie"
@@ -663,303 +414,215 @@ msgstr "Syria"
 
 #: application/views/register.php:152
 msgid "Tadjikistan"
-msgstr "Tadjikistan"
-
-#: application/views/register.php:153
-msgid "Ta&#239;wan"
-msgstr "Taiwan"
+msgstr "Tajikistan"
 
 #: application/views/register.php:154
-msgid "Tha&#239;lande"
+msgid "Thailande"
 msgstr "Thailand"
 
 #: application/views/register.php:155
 msgid "Timor oriental"
 msgstr "East Timor"
 
-#: application/views/register.php:156
-msgid "Turkm&#233;nistan"
-msgstr ""
-
 #: application/views/register.php:157
 msgid "Turquie"
-msgstr ""
-
-#: application/views/register.php:158
-msgid "Vi&#234;t Nam"
-msgstr ""
-
-#: application/views/register.php:159
-msgid "Yemen"
-msgstr ""
+msgstr "Turkey"
 
 #: application/views/register.php:161
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
 #: application/views/register.php:162
 msgid "Allemagne"
-msgstr ""
+msgstr "Germania"
 
 #: application/views/register.php:163
 msgid "Albanie"
-msgstr ""
-
-#: application/views/register.php:164
-msgid "Andorre"
-msgstr ""
+msgstr "Albania"
 
 #: application/views/register.php:165
 msgid "Autriche"
-msgstr ""
+msgstr "Austria"
 
 #: application/views/register.php:166
-msgid "Bi&#233;lorussie"
-msgstr ""
+msgid "Bielorussie"
+msgstr "Belarus"
 
 #: application/views/register.php:167
 msgid "Belgique"
-msgstr ""
+msgstr "Belgium"
 
 #: application/views/register.php:168
-msgid "Bosnie-Herz&#233;govine"
-msgstr ""
+msgid "Bosnie-Herzegovine"
+msgstr "Bosnia and Herzegovina"
 
 #: application/views/register.php:169
 msgid "Bulgarie"
-msgstr ""
+msgstr "Bulgaria"
 
 #: application/views/register.php:170
 msgid "Croatie"
-msgstr ""
+msgstr "Croatia"
 
 #: application/views/register.php:171
 msgid "Danemark"
-msgstr ""
+msgstr "Denmark"
 
 #: application/views/register.php:172
 msgid "Espagne"
-msgstr ""
+msgstr "Spain"
 
 #: application/views/register.php:173
 msgid "Estonie"
-msgstr ""
+msgstr "Estonia"
 
 #: application/views/register.php:174
 msgid "Finlande"
-msgstr ""
-
-#: application/views/register.php:175
-msgid "France"
-msgstr ""
+msgstr "Finland"
 
 #: application/views/register.php:176
-msgid "Gr&#232;ce"
-msgstr ""
+msgid "Grece"
+msgstr "Greece"
 
 #: application/views/register.php:177
 msgid "Hongrie"
-msgstr ""
+msgstr "Hungary"
 
 #: application/views/register.php:178
 msgid "Irlande"
-msgstr ""
+msgstr "Ireland"
 
 #: application/views/register.php:179
 msgid "Islande"
-msgstr ""
+msgstr "Iceland"
 
 #: application/views/register.php:180
 msgid "Italie"
-msgstr ""
+msgstr "Italy"
 
 #: application/views/register.php:181
 msgid "Lettonie"
-msgstr ""
-
-#: application/views/register.php:182
-msgid "Liechtenstein"
-msgstr ""
+msgstr "Latvia"
 
 #: application/views/register.php:183
 msgid "Lituanie"
-msgstr ""
-
-#: application/views/register.php:184
-msgid "Luxembourg"
-msgstr ""
+msgstr "Lithuania"
 
 #: application/views/register.php:185
-msgid "Ex-R&#233;publique Yougoslave de Mac&#233;doine"
-msgstr ""
+msgid "Ex-Republique Yougoslave de Macedoine"
+msgstr "Former Yugoslav Republic of Macedonia"
 
 #: application/views/register.php:186
 msgid "Malte"
-msgstr ""
+msgstr "Malta"
 
 #: application/views/register.php:187
 msgid "Moldavie"
-msgstr ""
-
-#: application/views/register.php:188
-msgid "Monaco"
-msgstr ""
+msgstr "Moldavia"
 
 #: application/views/register.php:189
-msgid "Norv&#232;ge"
-msgstr ""
+msgid "Norvege"
+msgstr "Norway"
 
 #: application/views/register.php:190
 msgid "Pays-Bas"
-msgstr ""
+msgstr "Netherlands"
 
 #: application/views/register.php:191
 msgid "Pologne"
-msgstr ""
-
-#: application/views/register.php:192
-msgid "Portugal"
-msgstr ""
+msgstr "Poland"
 
 #: application/views/register.php:193
 msgid "Roumanie"
-msgstr ""
+msgstr "Romania"
 
 #: application/views/register.php:194
 msgid "Royaume-Uni"
-msgstr ""
+msgstr "United Kingdom"
 
 #: application/views/register.php:195
 msgid "Russie"
-msgstr ""
+msgstr "Russia"
 
 #: application/views/register.php:196
 msgid "Saint-Marin"
-msgstr ""
+msgstr "San Marino"
 
 #: application/views/register.php:197
-msgid "Serbie-et-Mont&#233;n&#233;gro"
-msgstr ""
+msgid "Serbie-et-Montenegro"
+msgstr "Serbia and Montenegro"
 
 #: application/views/register.php:198
 msgid "Slovaquie"
-msgstr ""
+msgstr "Slovakia"
 
 #: application/views/register.php:199
-msgid "Slov&#233;nie"
-msgstr ""
+msgid "Slovenie"
+msgstr "Slovenia"
 
 #: application/views/register.php:200
-msgid "Su&#232;de"
-msgstr ""
+msgid "Suede"
+msgstr "Sweden"
 
 #: application/views/register.php:201
 msgid "Suisse"
-msgstr ""
+msgstr "Switzerland"
 
 #: application/views/register.php:202
-msgid "R&#233;publique Tch&#232;que"
-msgstr ""
-
-#: application/views/register.php:203
-msgid "Ukraine"
-msgstr ""
-
-#: application/views/register.php:204
-msgid "Vatican"
-msgstr ""
+msgid "Republique Tcheque"
+msgstr "Czech Republic"
 
 #: application/views/register.php:206
-msgid "Oc&#233;anie"
-msgstr ""
+msgid "Oceanie"
+msgstr "Oceania"
 
 #: application/views/register.php:207
 msgid "Australie"
-msgstr ""
+msgstr "Australia"
 
 #: application/views/register.php:208
 msgid "Fidji"
-msgstr ""
-
-#: application/views/register.php:209
-msgid "Kiribati"
-msgstr ""
-
-#: application/views/register.php:210
-msgid "Marshall"
-msgstr ""
+msgstr "Fiji"
 
 #: application/views/register.php:211
-msgid "Micron&#233;sie"
-msgstr ""
-
-#: application/views/register.php:212
-msgid "Nauru"
-msgstr ""
+msgid "Micronesie"
+msgstr "Micronesia"
 
 #: application/views/register.php:213
-msgid "Nouvelle-Z&#233;lande"
-msgstr ""
-
-#: application/views/register.php:214
-msgid "Palaos"
-msgstr ""
+msgid "Nouvelle-Zelande"
+msgstr "New Zealand"
 
 #: application/views/register.php:215
-msgid "Papouasie-Nouvelle-Guin&#233;e"
-msgstr ""
-
-#: application/views/register.php:216
-msgid "Salomon"
-msgstr ""
-
-#: application/views/register.php:217
-msgid "Samoa"
-msgstr ""
-
-#: application/views/register.php:218
-msgid "Tonga"
-msgstr ""
-
-#: application/views/register.php:219
-msgid "Tuvalu"
-msgstr ""
-
-#: application/views/register.php:220
-msgid "Vanuatu"
-msgstr ""
+msgid "Papouasie-Nouvelle-Guinee"
+msgstr "Papua New Guinea"
 
 #: application/views/register.php:225
-msgid "Date de d&#233;but"
-msgstr ""
-
-#: application/views/register.php:229
-msgid "Formation"
-msgstr ""
+msgid "Date de debut"
+msgstr "Date of commencement"
 
 #: application/views/register.php:233
 msgid "Genre"
-msgstr ""
+msgstr "Type"
 
 #: application/views/register.php:237
-msgid "Parent&#233;s"
-msgstr ""
+msgid "Parentes"
+msgstr "Relatedness"
 
 #: application/views/register.php:241
 msgid "Site web"
-msgstr ""
+msgstr "Web site"
 
 #: application/views/register.php:245
 msgid "S'inscrire"
-msgstr ""
+msgstr "Register"
 
 #: application/views/register.php:249
-msgid "Vous poss&#233;dez d&#233;j&#224; un compte ?"
-msgstr ""
+msgid "Vous possedez deja un compte ?"
+msgstr "You already have an account?"
 
 #: application/views/registerOk.php:2
 msgid "Inscription"
-msgstr ""
+msgstr "Registration"
 
 #: application/views/registerOk.php:4
 msgid ""
@@ -967,54 +630,174 @@ msgid ""
 "de passe vous serons envoyes par courriel lorsque votre inscription sera "
 "validee."
 msgstr ""
+"Your request of registration was taken into account. An identifier and a "
+"password shall be sent to you by e-mail when your registration will be "
+"validated."
 
 #: application/views/reservation.php:5
 msgid "Votre demande de reservation a ete prise en compte."
-msgstr ""
+msgstr "Your request of reservation was taken into account."
 
 #: application/views/resultat.php:2
 msgid "Resultat de la recherche"
-msgstr ""
+msgstr "Result of the research"
 
 #: application/views/resultat.php:5
-msgid "Desole, votre recherche n'a donne; aucun resultat"
-msgstr ""
+msgid "Desole, votre recherche n'a donne aucun resultat"
+msgstr "Sorry, your research has give no result"
 
 #: application/views/resultat.php:25
 msgid "Reserver"
-msgstr ""
+msgstr "Reserve"
 
 #: application/views/resultat.php:33
 msgid "Nouvelle recherche"
-msgstr ""
+msgstr "New research"
 
 #: application/views/traiter_reservation.php:2
 msgid "Traiter une demande de reservation"
-msgstr ""
+msgstr "Handle a request of reservation"
 
 #: application/views/traiter_reservation.php:4
 msgid "Aucune demande de reservation ne requiert votre attention."
-msgstr ""
+msgstr "No request of reservation requires your attention."
 
 #: application/views/traiter_reservation.php:8
 msgid "Date de reservation"
-msgstr ""
+msgstr "Date of reservation"
 
 #: application/views/traiter_reservation.php:9
 msgid "Artistes"
-msgstr ""
+msgstr "Artists"
 
 #: application/views/traiter_reservation.php:11
 msgid "Salle"
-msgstr ""
+msgstr "Room"
 
 #: application/views/traiter_reservation.php:12
 msgid "Jour"
-msgstr ""
+msgstr "Day"
 
 #: application/views/traiter_reservation.php:13
 msgid "Heure"
-msgstr ""
+msgstr "Hour"
+
+#~ msgid "Redirection..."
+#~ msgstr "R"
+
+#~ msgid "Alg&#233;rie"
+#~ msgstr "Algeria"
+
+#~ msgid "B&#233;nin"
+#~ msgstr "Benin"
+
+#~ msgid "R&#233;publique Centre-Africaine"
+#~ msgstr "Republic Center-Africa"
+
+#~ msgid "R&#233;publique D&#233;mocratique Du Congo"
+#~ msgstr "Democratic Republic of the Congo"
+
+#~ msgid "C&#244;te d'Ivoire"
+#~ msgstr "Ivory Coast"
+
+#~ msgid "&#201;gypte"
+#~ msgstr "Egypt"
+
+#~ msgid "&#201;thiopie"
+#~ msgstr "Ethiopia"
+
+#~ msgid "&#201;rythr&#233;e"
+#~ msgstr "Eritrea"
+
+#~ msgid "Guin&#233;e"
+#~ msgstr "Guinea"
+
+#~ msgid "Guin&#233;e-Bisseau"
+#~ msgstr "Guinea-Bissau"
+
+#~ msgid "Guin&#233;e &#201;quatoriale"
+#~ msgstr "Equatorial Guinea"
+
+#~ msgid "Sao Tom&#233;-et-Principe"
+#~ msgstr "Sao Tome and Principe"
+
+#~ msgid "S&#233;n&#233;gal"
+#~ msgstr "Senegal"
+
+#~ msgid "Am&#233;rique"
+#~ msgstr "America"
+
+#~ msgid "Br&#233;sil"
+#~ msgstr "Brazil"
+
+#~ msgid "R&#233;publique Dominicaine"
+#~ msgstr "Dominican Republic"
+
+#~ msgid "&#201;quateur"
+#~ msgstr "Equatoria"
+
+#~ msgid "&#201;tats-Unis"
+#~ msgstr "USA"
+
+#~ msgid "Ha&#239;ti"
+#~ msgstr "Haiti"
+
+#~ msgid "Jama&#239;que"
+#~ msgstr "Jamaica"
+
+#~ msgid "P&#233;rou"
+#~ msgstr "Peru"
+
+#~ msgid "Saint-Cristophe-et-Ni&#233;v&#232;s"
+#~ msgstr "Saint-Cristophe-et-Niévès"
+
+#~ msgid "Trinit&#233;-et-Tobago"
+#~ msgstr "Trinidad and Tobago"
+
+#~ msgid "Arm&#233;nie"
+#~ msgstr "Armenia"
+
+#~ msgid "Azerba&#239;djan"
+#~ msgstr "Azerbaidjan"
+
+#~ msgid "Bahre&#239;n"
+#~ msgstr "Bahrain"
+
+#~ msgid "Brun&#233;i"
+#~ msgstr "Brunei"
+
+#~ msgid "Cor&#233;e Du Sud"
+#~ msgstr "South Korea"
+
+#~ msgid "Cor&#233;e Du Nord"
+#~ msgstr "North Korea"
+
+#~ msgid "&#201;mirats Arabe Unis"
+#~ msgstr "Emirates Arab United"
+
+#~ msgid "G&#233;orgie"
+#~ msgstr "Georgia"
+
+#~ msgid "Indon&#233;sie"
+#~ msgstr "Indonesia"
+
+#~ msgid "Isra&#235;l"
+#~ msgstr "Israel"
+
+#~ msgid "Kowe&#239;t"
+#~ msgstr "Kowei;t"
+
+#~ msgid "N&#233;pal"
+#~ msgstr "Nepal"
+
+#~ msgid "Ouzb&#233;kistan"
+#~ msgstr "Ouzbekistan"
+
+#~ msgid "Ta&#239;wan"
+#~ msgstr "Taiwan"
+
+#~ msgid "Tha&#239;lande"
+#~ msgstr "Thailand"
 
 #~ msgid "Vous &#234;tes connect&#233;."
 #~ msgstr "You are connected."

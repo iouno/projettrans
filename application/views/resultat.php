@@ -2,7 +2,7 @@
 <h1><?php echo gettext("Resultat de la recherche");?></h1>
 
 <?php if (empty($lesSalles)) : ?>
-	<p><?php echo gettext("Desole, votre recherche n'a donne; aucun resultat"); ?></p>
+	<p><?php echo gettext("Desole, votre recherche n'a donne aucun resultat"); ?></p>
 <?php else : ?>
 	<form method="post" action="reserver" id="lesSalles">
 	<?php foreach ($lesSalles as $key => $value) : ?>

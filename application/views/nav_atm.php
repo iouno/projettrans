@@ -1,4 +1,4 @@
-<?php require "localization.php"; ?>
+
 <nav>
 	<ul>
 		<li><a><?php echo gettext("Inscriptions");?></a></li>

@@ -1,4 +1,4 @@
-<?php require "localization.php"; ?>
+
 <h1> <?php echo gettext("Traiter une demande de reservation"); ?></h1>
 <?php if (empty($reservations)) : ?>
 	<p><?php echo gettext("Aucune demande de reservation ne requiert votre attention."); ?></p>

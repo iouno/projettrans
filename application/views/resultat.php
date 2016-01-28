@@ -1,4 +1,4 @@
-<?php require "localization.php"; ?>
+
 <h1><?php echo gettext("Resultat de la recherche");?></h1>
 
 <?php if (empty($lesSalles)) : ?>

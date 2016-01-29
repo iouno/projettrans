@@ -45,13 +45,13 @@
 	</p>
 	<p>			
 		<label for="creneau"><?php echo gettext("Creneau horaire");?></label><br />
-		<?php echo_("de"); ?>
+		<?php echo gettext("de"); ?>
 		<select name="creneau" class="lselect">
 		<?php foreach ($time as $hour): ?>
 			<option value="<?php echo $hour ?>"><?php echo $hour ?></option>
 		<?php endforeach; ?>
 		</select> 
-		<?php echo_("&#224;"); ?>
+		<?php echo gettext("a"); ?>
 		<select name="creneau" class="lselect">
 		<?php foreach ($time as $hour): ?>
 			<option value="<?php echo $hour ?>"><?php echo $hour ?></option>

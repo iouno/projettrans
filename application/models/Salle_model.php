@@ -16,6 +16,5 @@ class Salle_model extends CI_Model {
 		$query = $this->db->query('SELECT * FROM transmusicales._salle WHERE nom = '."'".$name."'");
 		return $query->result_array();
 	}
-
 }
 ?>

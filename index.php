@@ -261,3 +261,6 @@ define('VIEWPATH', $view_folder);
 * And away we go...
 */
 require_once BASEPATH.'core/CodeIgniter.php';
+require 'localization.php';
+
+?>

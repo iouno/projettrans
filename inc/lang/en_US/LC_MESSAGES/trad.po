@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: en_US\n"
-"POT-Creation-Date: 2016-01-28 19:32+0100\n"
-"PO-Revision-Date: 2016-01-28 20:03+0100\n"
+"POT-Creation-Date: 2016-01-29 17:49+0100\n"
+"PO-Revision-Date: 2016-01-29 17:49+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -39,12 +39,12 @@ msgstr ""
 
 #: application/views/header.php:25
 msgid "Les Salles"
-msgstr "The Rooms"
+msgstr "Rooms"
 
 #: application/views/home.php:4 application/views/home.php:10
 #: application/views/home.php:18
 msgid "Inscrivez-vous"
-msgstr "Join"
+msgstr "Sign up"
 
 #: application/views/home.php:5
 msgid "Faire une recherche"
@@ -64,8 +64,8 @@ msgid ""
 "Rien de plus facile ! Artiste ou groupe des Trans Musicales, inscrivez-vous "
 "et choisissez !"
 msgstr ""
-"Find the scenes which answer at best has your criteria and reserver? Nothing "
-"more easy! Artist or group of Trans Musicales, join and choose!"
+"Find scenes which satisfy at best has listings and the book? Nothing easier! "
+"Artist or group of the Trans Musicales, sign up and choose!"
 
 #: application/views/nav_artiste.php:5 application/views/recherche.php:77
 msgid "Rechercher"
@@ -73,7 +73,7 @@ msgstr "Research"
 
 #: application/views/nav_artiste.php:6
 msgid "Voir ses reservations"
-msgstr "See reservation"
+msgstr "See his reservations"
 
 #: application/views/nav_artiste.php:7
 msgid "Modifier son profil"
@@ -85,7 +85,7 @@ msgstr "Registration"
 
 #: application/views/recherche.php:32
 msgid "Rechercher une salle"
-msgstr "Research a room"
+msgstr "Search a room"
 
 #: application/views/recherche.php:35
 msgid "Nom de la salle"
@@ -99,17 +99,25 @@ msgstr "Day"
 msgid "Creneau horaire"
 msgstr "Time slot"
 
+#: application/views/recherche.php:48
+msgid "de"
+msgstr "from"
+
+#: application/views/recherche.php:54
+msgid "a"
+msgstr "to"
+
 #: application/views/recherche.php:62
 msgid "Capacite de la salle"
 msgstr "Capacity of the room"
 
 #: application/views/recherche.php:72
 msgid "Accessible aux personnes a mobilite reduite"
-msgstr "Full disabled access "
+msgstr "Accessibility to persons with reduced mobility"
 
 #: application/views/recherche.php:74
 msgid "Oui"
-msgstr "Yes"
+msgstr "yes"
 
 #: application/views/register.php:6
 msgid "Veuillez renseigner tous les champs afin de valider votre inscription"
@@ -142,7 +150,7 @@ msgstr "Algeria"
 
 #: application/views/register.php:28
 msgid "Cameroun"
-msgstr "Cameroon"
+msgstr "Camerun"
 
 #: application/views/register.php:29
 msgid "Cap-Vert"
@@ -150,7 +158,7 @@ msgstr "Cape Verde"
 
 #: application/views/register.php:30
 msgid "Republique Centre-Africaine"
-msgstr "Republic Center-Africa"
+msgstr "Center-Africain Republic"
 
 #: application/views/register.php:31
 msgid "Comores"
@@ -158,7 +166,7 @@ msgstr "Comoros"
 
 #: application/views/register.php:32
 msgid "Republique Democratique Du Congo"
-msgstr "Democratic Republic of the Congo"
+msgstr "Democratical Republic of Congo"
 
 #: application/views/register.php:34
 msgid "Cote d'Ivoire"
@@ -174,7 +182,7 @@ msgstr "Ethiopia"
 
 #: application/views/register.php:38
 msgid "Erythree"
-msgstr "Eritrea"
+msgstr "Erytrea"
 
 #: application/views/register.php:40
 msgid "Gambie"
@@ -282,7 +290,7 @@ msgstr "Equator"
 
 #: application/views/register.php:91
 msgid "Etats-Unis"
-msgstr "United Strates of America"
+msgstr "United States of America"
 
 #: application/views/register.php:92
 msgid "Grenade"
@@ -302,7 +310,7 @@ msgstr "Peru"
 
 #: application/views/register.php:103
 msgid "Saint-Christophe-et-Nieves"
-msgstr "Saint Kitts and Nevis"
+msgstr "Saint Kills and Nieves"
 
 #: application/views/register.php:104
 msgid "Sainte-Lucie"
@@ -362,7 +370,7 @@ msgstr "North Korea"
 
 #: application/views/register.php:126
 msgid "Emirats Arabe Unis"
-msgstr "United Arab Emirates"
+msgstr "United Arab Emirats"
 
 #: application/views/register.php:127
 msgid "Georgie"
@@ -418,7 +426,7 @@ msgstr "Tajikistan"
 
 #: application/views/register.php:154
 msgid "Thailande"
-msgstr "Thailand"
+msgstr "Tailand"
 
 #: application/views/register.php:155
 msgid "Timor oriental"
@@ -434,7 +442,7 @@ msgstr "Europa"
 
 #: application/views/register.php:162
 msgid "Allemagne"
-msgstr "Germania"
+msgstr "Germany"
 
 #: application/views/register.php:163
 msgid "Albanie"
@@ -506,7 +514,7 @@ msgstr "Latvia"
 
 #: application/views/register.php:183
 msgid "Lituanie"
-msgstr "Lithuania"
+msgstr "Lituania"
 
 #: application/views/register.php:185
 msgid "Ex-Republique Yougoslave de Macedoine"
@@ -550,7 +558,7 @@ msgstr "San Marino"
 
 #: application/views/register.php:197
 msgid "Serbie-et-Montenegro"
-msgstr "Serbia and Montenegro"
+msgstr "Serbie and Montenegro"
 
 #: application/views/register.php:198
 msgid "Slovaquie"
@@ -618,7 +626,7 @@ msgstr "Register"
 
 #: application/views/register.php:249
 msgid "Vous possedez deja un compte ?"
-msgstr "You already have an account?"
+msgstr "You already have an account ?"
 
 #: application/views/registerOk.php:2
 msgid "Inscription"
@@ -634,7 +642,24 @@ msgstr ""
 "password shall be sent to you by e-mail when your registration will be "
 "validated."
 
-#: application/views/reservation.php:5
+#: application/views/reservation.php:15
+msgid "Annuler"
+msgstr "Cancel"
+
+#: application/views/reservation.php:19
+msgid "Soumettre"
+msgstr "Submit"
+
+#: application/views/reservationNon.php:2
+msgid ""
+"Le creneau selectionne n'est pas libre. Veuillez faire une autre reservation."
+msgstr "The selected crenel is not free. Please make another reservation."
+
+#: application/views/reservationNon.php:6 application/views/resultat.php:33
+msgid "Nouvelle recherche"
+msgstr "New research"
+
+#: application/views/reservationOk.php:2
 msgid "Votre demande de reservation a ete prise en compte."
 msgstr "Your request of reservation was taken into account."
 
@@ -649,10 +674,6 @@ msgstr "Sorry, your research has give no result"
 #: application/views/resultat.php:25
 msgid "Reserver"
 msgstr "Reserve"
-
-#: application/views/resultat.php:33
-msgid "Nouvelle recherche"
-msgstr "New research"
 
 #: application/views/traiter_reservation.php:2
 msgid "Traiter une demande de reservation"

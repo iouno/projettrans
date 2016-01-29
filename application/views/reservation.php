@@ -12,9 +12,9 @@
 </div>
 
 <div id="abandon">
-	<?php echo anchor('artiste/recherche',echo gettext("Abandonner la reservation")) ?>
+	<?php echo anchor('artiste/recherche',echo gettext("Annuler")) ?>
 </div>
 
 <div id="valider">
-	<?php echo anchor('artiste/reservationOk',echo gettext("Soumettre la reservation")) ?>
+	<?php echo anchor('artiste/reservationOk',echo gettext("Soumettre")) ?>
 </div>

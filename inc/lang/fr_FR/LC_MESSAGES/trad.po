@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr_FR\n"
 "POT-Creation-Date: 2016-01-28 21:31+0100\n"
-"PO-Revision-Date: 2016-01-29 09:34+0100\n"
+"PO-Revision-Date: 2016-01-29 18:09+0100\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,8 +65,8 @@ msgid ""
 "Rien de plus facile ! Artiste ou groupe des Trans Musicales, inscrivez-vous "
 "et choisissez !"
 msgstr ""
-"Trouver les scènes qui répondent au mieux à vos critères et les réserver ? "
-"Rien de plus facile ! Artiste ou groupe des TransMusicales, inscrivez-vous "
+"Trouver les scènes qui répondent au mieux a vos critères et les réserver ? "
+"Rien de plus facile ! Artiste ou groupe des Trans Musicales, inscrivez-vous "
 "et choisissez !"
 
 #: views/nav_artiste.php:5 views/recherche.php:77
@@ -103,11 +103,11 @@ msgstr "Créneau horaire"
 
 #: views/recherche.php:62
 msgid "Capacite de la salle"
-msgstr "Capacité de la sale"
+msgstr "Capacité de la salle"
 
 #: views/recherche.php:72
 msgid "Accessible aux personnes a mobilite reduite"
-msgstr "Accessible aux personnes à mobilité réduite"
+msgstr "Accessible aux personnes a mobilité réduite"
 
 #: views/recherche.php:74
 msgid "Oui"
@@ -199,7 +199,7 @@ msgstr "Libye"
 
 #: views/register.php:54
 msgid "Mauritanie"
-msgstr "Mauritanue"
+msgstr "Mauritanie"
 
 #: views/register.php:56
 msgid "Namibie"
@@ -211,7 +211,7 @@ msgstr "Ouganda"
 
 #: views/register.php:61
 msgid "Sao Tome-et-Principe"
-msgstr "Sao Tomé-et-Principe"
+msgstr "Sao Tomé-et-Principé"
 
 #: views/register.php:65
 msgid "Somalie"
@@ -247,7 +247,7 @@ msgstr "Antigua-et-Barbuda"
 
 #: views/register.php:77
 msgid "Argentine"
-msgstr "Argentina"
+msgstr "Argentine"
 
 #: views/register.php:79
 msgid "Barbade"
@@ -315,7 +315,7 @@ msgstr "Saint-Vincent-et-les-Grenadines"
 
 #: views/register.php:108
 msgid "Trinite-et-Tobago"
-msgstr "Trinité-et-Tobago"
+msgstr "Trnité-et-Tobago"
 
 #: views/register.php:112
 msgid "Asie"
@@ -363,7 +363,7 @@ msgstr "Corée Du Nord"
 
 #: views/register.php:126
 msgid "Emirats Arabe Unis"
-msgstr "Émirats Arabe Unis"
+msgstr "Émirats Arabes Unis"
 
 #: views/register.php:127
 msgid "Georgie"
@@ -539,7 +539,7 @@ msgstr "Roumanie"
 
 #: views/register.php:194
 msgid "Royaume-Uni"
-msgstr "Royaume-Unie"
+msgstr "Royaume-Uni"
 
 #: views/register.php:195
 msgid "Russie"
@@ -571,7 +571,7 @@ msgstr "Suisse"
 
 #: views/register.php:202
 msgid "Republique Tcheque"
-msgstr "Républie Tchèque"
+msgstr "République Tchèque"
 
 #: views/register.php:206
 msgid "Oceanie"
@@ -611,7 +611,7 @@ msgstr "Parentés"
 
 #: views/register.php:241
 msgid "Site web"
-msgstr "Site web"
+msgstr "Web site"
 
 #: views/register.php:245
 msgid "S'inscrire"
@@ -645,7 +645,7 @@ msgstr "Résultat de la recherche"
 
 #: views/resultat.php:5
 msgid "Desole, votre recherche n'a donne aucun resultat"
-msgstr "Désolé, votre recherche n'a donné aucun résultat"
+msgstr "Désolé, votre recherche n'a donne aucun résultat"
 
 #: views/resultat.php:25
 msgid "Reserver"

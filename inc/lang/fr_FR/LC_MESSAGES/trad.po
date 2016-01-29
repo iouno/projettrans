@@ -2,10 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr_FR\n"
 "POT-Creation-Date: 2016-01-28 21:31+0100\n"
-"PO-Revision-Date: 2016-01-28 21:31+0100\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2016-01-29 09:34+0100\n"
 "Language-Team: \n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,6 +11,8 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../application\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: gettext\n"
+"Last-Translator: \n"
+"Language: fr\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: views/connected.php:1
@@ -66,7 +66,7 @@ msgid ""
 "et choisissez !"
 msgstr ""
 "Trouver les scènes qui répondent au mieux à vos critères et les réserver ? "
-"Rien de plus facile ! Artiste ou groupe des Trans Musicales, inscrivez-vous "
+"Rien de plus facile ! Artiste ou groupe des TransMusicales, inscrivez-vous "
 "et choisissez !"
 
 #: views/nav_artiste.php:5 views/recherche.php:77
@@ -103,7 +103,7 @@ msgstr "Créneau horaire"
 
 #: views/recherche.php:62
 msgid "Capacite de la salle"
-msgstr "Capacité de la salle"
+msgstr "Capacité de la sale"
 
 #: views/recherche.php:72
 msgid "Accessible aux personnes a mobilite reduite"
@@ -139,7 +139,7 @@ msgstr "Afrique Du Sud"
 
 #: views/register.php:22
 msgid "Algerie"
-msgstr ""
+msgstr "Algérie"
 
 #: views/register.php:28
 msgid "Cameroun"
@@ -151,7 +151,7 @@ msgstr "Cap-Vert"
 
 #: views/register.php:30
 msgid "Republique Centre-Africaine"
-msgstr ""
+msgstr "République Centre-Africaine"
 
 #: views/register.php:31
 msgid "Comores"
@@ -159,23 +159,23 @@ msgstr "Comores"
 
 #: views/register.php:32
 msgid "Republique Democratique Du Congo"
-msgstr ""
+msgstr "République Démocratique Du Congo"
 
 #: views/register.php:34
 msgid "Cote d'Ivoire"
-msgstr ""
+msgstr "Côte d'Ivoire"
 
 #: views/register.php:36
 msgid "Egypte"
-msgstr ""
+msgstr "Égypte"
 
 #: views/register.php:37
 msgid "Ethiopie"
-msgstr ""
+msgstr "Éthiopie"
 
 #: views/register.php:38
 msgid "Erythree"
-msgstr ""
+msgstr "Érythrée"
 
 #: views/register.php:40
 msgid "Gambie"
@@ -183,15 +183,15 @@ msgstr "Gambie"
 
 #: views/register.php:42
 msgid "Guinee"
-msgstr ""
+msgstr "Guinée"
 
 #: views/register.php:43
 msgid "Guinee-Bisseau"
-msgstr ""
+msgstr "Guinée-Bisseau"
 
 #: views/register.php:44
 msgid "Guinee Equatoriale"
-msgstr ""
+msgstr "Guinée Équatoriale"
 
 #: views/register.php:48
 msgid "Libye"
@@ -199,7 +199,7 @@ msgstr "Libye"
 
 #: views/register.php:54
 msgid "Mauritanie"
-msgstr "Mauritanie"
+msgstr "Mauritanue"
 
 #: views/register.php:56
 msgid "Namibie"
@@ -211,7 +211,7 @@ msgstr "Ouganda"
 
 #: views/register.php:61
 msgid "Sao Tome-et-Principe"
-msgstr ""
+msgstr "Sao Tomé-et-Principe"
 
 #: views/register.php:65
 msgid "Somalie"
@@ -239,7 +239,7 @@ msgstr "Zambie"
 
 #: views/register.php:75
 msgid "Amerique"
-msgstr ""
+msgstr "Amérique"
 
 #: views/register.php:76
 msgid "Antigua-et-Barbuda"
@@ -247,7 +247,7 @@ msgstr "Antigua-et-Barbuda"
 
 #: views/register.php:77
 msgid "Argentine"
-msgstr "Argentine"
+msgstr "Argentina"
 
 #: views/register.php:79
 msgid "Barbade"
@@ -259,7 +259,7 @@ msgstr "Bolivie"
 
 #: views/register.php:82
 msgid "Bresil"
-msgstr ""
+msgstr "Brésil"
 
 #: views/register.php:84
 msgid "Chili"
@@ -271,7 +271,7 @@ msgstr "Colombie"
 
 #: views/register.php:88
 msgid "Republique Dominicaine"
-msgstr ""
+msgstr "République Dominicaine"
 
 #: views/register.php:89
 msgid "Dominique"
@@ -279,11 +279,11 @@ msgstr "Dominique"
 
 #: views/register.php:90
 msgid "Equateur"
-msgstr ""
+msgstr "Équateur"
 
 #: views/register.php:91
 msgid "Etats-Unis"
-msgstr ""
+msgstr "États-Unis"
 
 #: views/register.php:92
 msgid "Grenade"
@@ -291,19 +291,19 @@ msgstr "Grenade"
 
 #: views/register.php:97
 msgid "Jamaique"
-msgstr ""
+msgstr "Jamaïque"
 
 #: views/register.php:98
 msgid "Mexique"
-msgstr ""
+msgstr "Mexique"
 
 #: views/register.php:102
 msgid "Perou"
-msgstr ""
+msgstr "Pérou"
 
 #: views/register.php:103
 msgid "Saint-Christophe-et-Nieves"
-msgstr ""
+msgstr "Saint-Christophe-et-Niévès"
 
 #: views/register.php:104
 msgid "Sainte-Lucie"
@@ -315,7 +315,7 @@ msgstr "Saint-Vincent-et-les-Grenadines"
 
 #: views/register.php:108
 msgid "Trinite-et-Tobago"
-msgstr ""
+msgstr "Trinité-et-Tobago"
 
 #: views/register.php:112
 msgid "Asie"
@@ -327,15 +327,15 @@ msgstr "Arabie Saoudite"
 
 #: views/register.php:115
 msgid "Armenie"
-msgstr ""
+msgstr "Arménie"
 
 #: views/register.php:116
 msgid "Azerbaidjan"
-msgstr "Azerbaidjan"
+msgstr "Azerbaïdjan"
 
 #: views/register.php:117
 msgid "Bahrein"
-msgstr "Bahrein"
+msgstr "Bahreïn"
 
 #: views/register.php:119
 msgid "Bhoutan"
@@ -355,19 +355,19 @@ msgstr "Chine"
 
 #: views/register.php:124
 msgid "Coree Du Sud"
-msgstr ""
+msgstr "Corée Du Sud"
 
 #: views/register.php:125
 msgid "Coree Du Nord"
-msgstr ""
+msgstr "Corée Du Nord"
 
 #: views/register.php:126
 msgid "Emirats Arabe Unis"
-msgstr ""
+msgstr "Émirats Arabe Unis"
 
 #: views/register.php:127
 msgid "Georgie"
-msgstr ""
+msgstr "Géorgie"
 
 #: views/register.php:128
 msgid "Inde"
@@ -375,7 +375,7 @@ msgstr "Inde"
 
 #: views/register.php:129
 msgid "Indonesie"
-msgstr ""
+msgstr "Indonésie"
 
 #: views/register.php:133
 msgid "Japon"
@@ -387,7 +387,7 @@ msgstr "Jordanie"
 
 #: views/register.php:137
 msgid "Koweit"
-msgstr ""
+msgstr "Koweït"
 
 #: views/register.php:139
 msgid "Liban"
@@ -415,215 +415,215 @@ msgstr "Syrie"
 
 #: views/register.php:152
 msgid "Tadjikistan"
-msgstr ""
+msgstr "Tadjikistan"
 
 #: views/register.php:154
 msgid "Thailande"
-msgstr ""
+msgstr "Thaïlande"
 
 #: views/register.php:155
 msgid "Timor oriental"
-msgstr ""
+msgstr "Timor oriental"
 
 #: views/register.php:157
 msgid "Turquie"
-msgstr ""
+msgstr "Turquie"
 
 #: views/register.php:161
 msgid "Europe"
-msgstr ""
+msgstr "Europe"
 
 #: views/register.php:162
 msgid "Allemagne"
-msgstr ""
+msgstr "Allemagne"
 
 #: views/register.php:163
 msgid "Albanie"
-msgstr ""
+msgstr "Albanie"
 
 #: views/register.php:165
 msgid "Autriche"
-msgstr ""
+msgstr "Autriche"
 
 #: views/register.php:166
 msgid "Bielorussie"
-msgstr ""
+msgstr "Biélorussie"
 
 #: views/register.php:167
 msgid "Belgique"
-msgstr ""
+msgstr "Belgique"
 
 #: views/register.php:168
 msgid "Bosnie-Herzegovine"
-msgstr ""
+msgstr "Bosnie-Herzégovine"
 
 #: views/register.php:169
 msgid "Bulgarie"
-msgstr ""
+msgstr "Bulgarie"
 
 #: views/register.php:170
 msgid "Croatie"
-msgstr ""
+msgstr "Croatie"
 
 #: views/register.php:171
 msgid "Danemark"
-msgstr ""
+msgstr "Danemark"
 
 #: views/register.php:172
 msgid "Espagne"
-msgstr ""
+msgstr "Espagne"
 
 #: views/register.php:173
 msgid "Estonie"
-msgstr ""
+msgstr "Estonie"
 
 #: views/register.php:174
 msgid "Finlande"
-msgstr ""
+msgstr "Finlande"
 
 #: views/register.php:176
 msgid "Grece"
-msgstr ""
+msgstr "Grèce"
 
 #: views/register.php:177
 msgid "Hongrie"
-msgstr ""
+msgstr "Hongrie"
 
 #: views/register.php:178
 msgid "Irlande"
-msgstr ""
+msgstr "Irlande"
 
 #: views/register.php:179
 msgid "Islande"
-msgstr ""
+msgstr "Islande"
 
 #: views/register.php:180
 msgid "Italie"
-msgstr ""
+msgstr "Italie"
 
 #: views/register.php:181
 msgid "Lettonie"
-msgstr ""
+msgstr "Lettonie"
 
 #: views/register.php:183
 msgid "Lituanie"
-msgstr ""
+msgstr "Lituanie"
 
 #: views/register.php:185
 msgid "Ex-Republique Yougoslave de Macedoine"
-msgstr ""
+msgstr "Ex-République Yougoslave de Macédoine"
 
 #: views/register.php:186
 msgid "Malte"
-msgstr ""
+msgstr "Malte"
 
 #: views/register.php:187
 msgid "Moldavie"
-msgstr ""
+msgstr "Moldavie"
 
 #: views/register.php:189
 msgid "Norvege"
-msgstr ""
+msgstr "Norvège"
 
 #: views/register.php:190
 msgid "Pays-Bas"
-msgstr ""
+msgstr "Pays-Bas"
 
 #: views/register.php:191
 msgid "Pologne"
-msgstr ""
+msgstr "Pologne"
 
 #: views/register.php:193
 msgid "Roumanie"
-msgstr ""
+msgstr "Roumanie"
 
 #: views/register.php:194
 msgid "Royaume-Uni"
-msgstr ""
+msgstr "Royaume-Unie"
 
 #: views/register.php:195
 msgid "Russie"
-msgstr ""
+msgstr "Russie"
 
 #: views/register.php:196
 msgid "Saint-Marin"
-msgstr ""
+msgstr "Saint-Marin"
 
 #: views/register.php:197
 msgid "Serbie-et-Montenegro"
-msgstr ""
+msgstr "Serbie-et-Monténégro"
 
 #: views/register.php:198
 msgid "Slovaquie"
-msgstr ""
+msgstr "Slovaquie"
 
 #: views/register.php:199
 msgid "Slovenie"
-msgstr ""
+msgstr "Slovénie"
 
 #: views/register.php:200
 msgid "Suede"
-msgstr ""
+msgstr "Suède"
 
 #: views/register.php:201
 msgid "Suisse"
-msgstr ""
+msgstr "Suisse"
 
 #: views/register.php:202
 msgid "Republique Tcheque"
-msgstr ""
+msgstr "Républie Tchèque"
 
 #: views/register.php:206
 msgid "Oceanie"
-msgstr ""
+msgstr "Océanie"
 
 #: views/register.php:207
 msgid "Australie"
-msgstr ""
+msgstr "Australie"
 
 #: views/register.php:208
 msgid "Fidji"
-msgstr ""
+msgstr "Fidji"
 
 #: views/register.php:211
 msgid "Micronesie"
-msgstr ""
+msgstr "Micronésie"
 
 #: views/register.php:213
 msgid "Nouvelle-Zelande"
-msgstr ""
+msgstr "Nouvelle-Zélande"
 
 #: views/register.php:215
 msgid "Papouasie-Nouvelle-Guinee"
-msgstr ""
+msgstr "Papouasie-Nouvelle-Guinée"
 
 #: views/register.php:225
 msgid "Date de debut"
-msgstr ""
+msgstr "Date de début"
 
 #: views/register.php:233
 msgid "Genre"
-msgstr ""
+msgstr "Genre"
 
 #: views/register.php:237
 msgid "Parentes"
-msgstr ""
+msgstr "Parentés"
 
 #: views/register.php:241
 msgid "Site web"
-msgstr ""
+msgstr "Site web"
 
 #: views/register.php:245
 msgid "S'inscrire"
-msgstr ""
+msgstr "S'inscrire"
 
 #: views/register.php:249
 msgid "Vous possedez deja un compte ?"
-msgstr ""
+msgstr "Vous possédez déjà un compte ?"
 
 #: views/registerOk.php:2
 msgid "Inscription"
-msgstr ""
+msgstr "Inscription"
 
 #: views/registerOk.php:4
 msgid ""
@@ -631,51 +631,54 @@ msgid ""
 "de passe vous serons envoyes par courriel lorsque votre inscription sera "
 "validee."
 msgstr ""
+"Votre demande d'inscription a été prise en compte. Un identifiant et un mot "
+"de passe vous serons envoyés par courriel lorsque votre inscription sera "
+"validée."
 
 #: views/reservation.php:5
 msgid "Votre demande de reservation a ete prise en compte."
-msgstr ""
+msgstr "Votre demande de réservation a été prise en compte."
 
 #: views/resultat.php:2
 msgid "Resultat de la recherche"
-msgstr ""
+msgstr "Résultat de la recherche"
 
 #: views/resultat.php:5
 msgid "Desole, votre recherche n'a donne aucun resultat"
-msgstr ""
+msgstr "Désolé, votre recherche n'a donné aucun résultat"
 
 #: views/resultat.php:25
 msgid "Reserver"
-msgstr ""
+msgstr "Réserver"
 
 #: views/resultat.php:33
 msgid "Nouvelle recherche"
-msgstr ""
+msgstr "Nouvelle recherche"
 
 #: views/traiter_reservation.php:2
 msgid "Traiter une demande de reservation"
-msgstr ""
+msgstr "Traiter une demande de réservation"
 
 #: views/traiter_reservation.php:4
 msgid "Aucune demande de reservation ne requiert votre attention."
-msgstr ""
+msgstr "Aucune demande de réservation ne requiert votre attention."
 
 #: views/traiter_reservation.php:8
 msgid "Date de reservation"
-msgstr ""
+msgstr "Date de réservation"
 
 #: views/traiter_reservation.php:9
 msgid "Artistes"
-msgstr ""
+msgstr "Artistes"
 
 #: views/traiter_reservation.php:11
 msgid "Salle"
-msgstr ""
+msgstr "Salle"
 
 #: views/traiter_reservation.php:12
 msgid "Jour"
-msgstr ""
+msgstr "Jour"
 
 #: views/traiter_reservation.php:13
 msgid "Heure"
-msgstr ""
+msgstr "Heure"
